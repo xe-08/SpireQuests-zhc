@@ -185,7 +185,7 @@ public abstract class AbstractQuest implements Comparable<AbstractQuest> {
         }
 
         if (questTracker.trigger != null) triggers.add(questTracker.trigger);
-        if (questTracker.reset != null) triggers.add(questTracker.reset);
+        if (questTracker.reset != null) triggers.addAll(questTracker.reset);
 
         return questTracker;
     }
@@ -363,7 +363,7 @@ public abstract class AbstractQuest implements Comparable<AbstractQuest> {
         protected boolean hidden = false;
         protected Supplier<Boolean> condition = null;
         protected Consumer<Trigger<?>> trigger = null;
-        protected Consumer<Trigger<?>> reset = null;
+        protected ArrayList<Consumer<Trigger<?>>> reset = new ArrayList<>();
 
         public abstract boolean isComplete();
         public boolean isFailed() {
@@ -393,6 +393,10 @@ public abstract class AbstractQuest implements Comparable<AbstractQuest> {
         }
 
         public final <A> void setTrigger(Trigger<A> trigger, Consumer<A> onTrigger) {
+            if (trigger != null) {
+                throw new RuntimeException("setTrigger should only be set once on a Tracker!");
+            }
+
             this.trigger = trigger.getTriggerMethod((param) -> {
                 if (Tracker.this.condition == null || Tracker.this.condition.get()) onTrigger.accept(param);
             });
@@ -422,12 +426,12 @@ public abstract class AbstractQuest implements Comparable<AbstractQuest> {
          * @param lockCompletion If true, the reset trigger will be ignored once this tracker is completed.
          */
         public final <A> Tracker setResetTrigger(Trigger<A> trigger, Function<A, Boolean> condition, boolean lockCompletion) {
-            this.reset = trigger.getTriggerMethod((param)->{
+            this.reset.add(trigger.getTriggerMethod((param)->{
                 if (lockCompletion && this.isComplete()) return;
                 if (condition.apply(param)) {
                     this.reset();
                 }
-            });
+            }));
             return this;
         }
 
