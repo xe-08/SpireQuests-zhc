@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.helpers.Hitbox;
 import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import spireQuests.quests.AbstractQuest;
+import spireQuests.quests.example.EnterRoomTestQuest;
 import spireQuests.quests.modargo.PeasantQuest;
 import spireQuests.quests.example.TestQuest;
 import spireQuests.util.TexLoader;
@@ -36,7 +37,7 @@ public class QuestBoardProp {
         // TODO select 3 random quests
         this.quests.add(new TestQuest());
         this.quests.add(new PeasantQuest());
-        this.quests.add(new TestQuest());
+        this.quests.add(new EnterRoomTestQuest());
         for (AbstractQuest quest : quests) {
             quest.setCost();
         }
