@@ -27,6 +27,7 @@ import spireQuests.abstracts.AbstractSQRelic;
 import spireQuests.cardvars.SecondDamage;
 import spireQuests.cardvars.SecondMagicNumber;
 import spireQuests.quests.AbstractQuest;
+import spireQuests.quests.QuestGenerator;
 import spireQuests.quests.QuestManager;
 import spireQuests.ui.QuestBoardScreen;
 import spireQuests.util.TexLoader;
@@ -175,6 +176,7 @@ public class Anniv8Mod implements
         initializedStrings = true;
 
         QuestManager.initialize();
+        QuestGenerator.initialize();
         addPotions();
         addSaveFields();
         initializeSavedData();

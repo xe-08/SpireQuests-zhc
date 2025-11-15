@@ -29,5 +29,15 @@
     "EXTRA_TEXT": [
       "Shop exits with <= 50 gold"
     ]
+  },
+  "${ModID}:DefectOnlyTestQuest": {
+    "TEXT": [
+      "Defect Only Test",
+      "Reach the act boss.",
+      "Test"
+    ],
+    "EXTRA_TEXT": [
+      "Boss reached"
+    ]
   }
 }

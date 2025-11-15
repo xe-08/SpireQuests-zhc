@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.helpers.Hitbox;
 import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import spireQuests.quests.AbstractQuest;
+import spireQuests.quests.QuestGenerator;
 import spireQuests.util.TexLoader;
 
 import java.util.ArrayList;
@@ -30,7 +31,7 @@ public class QuestBoardProp {
     public QuestBoardProp(float drawX, float drawY, boolean fromNeow) {
         this.drawX = drawX;
         this.drawY = drawY;
-        this.quests = QuestBoardScreen.generateRandomQuests(fromNeow);
+        this.quests = QuestGenerator.generateRandomQuests(fromNeow);
         numQuestsPickable = 2;
         this.sprite = TexLoader.getTexture(questBoardPropImagePath);
         this.hb = new Hitbox(sprite.getWidth() * Settings.xScale, sprite.getHeight() * Settings.yScale);

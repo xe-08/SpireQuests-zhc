@@ -269,6 +269,10 @@ public abstract class AbstractQuest implements Comparable<AbstractQuest> {
     public void onFail() {
     }
 
+    public boolean canSpawn() {
+        return true;
+    }
+
     public void triggerTrackers(Trigger<?> trigger) {
         for (Consumer<Trigger<?>> triggerMethod : triggers) {
             triggerMethod.accept(trigger);
