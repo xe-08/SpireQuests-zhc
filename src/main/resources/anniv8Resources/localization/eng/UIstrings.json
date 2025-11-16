@@ -21,8 +21,10 @@
       "You can select ",
       " more quest(s)",
       "By: ",
-      "Quest log is full! The next one will replace: %s"
-      ]
+      "Quest log is full! The next one will replace: %s",
+      "#yQuest: NL ",
+      "#gRewards: NL "
+    ]
   },
   "${ModID}:AbstractQuest": {
     "TEXT": [
@@ -32,7 +34,7 @@
   },
   "${ModID}:QuestReward": {
     "TEXT": [
-      "Gain %d Gold.",
+      "Gain #b%d #yGold.",
       "Obtain %s.",
       "a random Common relic",
       "a random Uncommon relic",

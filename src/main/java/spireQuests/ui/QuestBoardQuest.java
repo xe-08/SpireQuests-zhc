@@ -45,7 +45,7 @@ public class QuestBoardQuest {
             sb.draw(ImageMaster.VICTORY_BANNER, this.x - 50.0F * Settings.xScale, this.y + 199.0F * Settings.yScale + boardY, 612.0F * Settings.xScale, 238.0F * Settings.yScale);
 
             // Quest name
-            FontHelper.renderFontCentered(sb, FontHelper.losePowerFont, this.quest.name, this.x + 260.0F * Settings.xScale, this.y + 340.0F * Settings.yScale + boardY, Color.WHITE, 1.2f);
+            FontHelper.renderFontCentered(sb, FontHelper.losePowerFont, this.quest.name, this.x + 260.0F * Settings.xScale, this.y + 340.0F * Settings.yScale + boardY, Color.WHITE, quest.getTitleScale());
             FontHelper.renderSmartText(
                     sb,
                     FontHelper.cardDescFont_N,
@@ -79,7 +79,7 @@ public class QuestBoardQuest {
             FontHelper.renderSmartText(
                     sb,
                     FontHelper.cardDescFont_N,
-                    quest.getDescription(),
+                    TEXT[6] + quest.getDescription(),
                     this.x + 55.0F * Settings.xScale,
                     this.y + 165.0F * Settings.yScale + boardY,
                     textWidth,
@@ -90,7 +90,7 @@ public class QuestBoardQuest {
             FontHelper.renderSmartText(
                     sb,
                     FontHelper.cardDescFont_N,
-                    quest.getRewardsText(),
+                    TEXT[7] + quest.getRewardsText(),
                     this.x + 55.0F * Settings.xScale,
                     this.y - 60.0F * Settings.yScale + boardY,
                     textWidth,
