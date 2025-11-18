@@ -11,6 +11,8 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.map.MapRoomNode;
+import com.megacrit.cardcrawl.rewards.chests.AbstractChest;
+import com.megacrit.cardcrawl.rewards.chests.BossChest;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
 import javassist.CtBehavior;
@@ -27,6 +29,8 @@ public class QuestTriggers {
     public static final Trigger<Void> TURN_START = new Trigger<>();
     public static final Trigger<Void> VICTORY = new Trigger<>();
     public static final Trigger<Void> IMPENDING_DAY_KILL = new Trigger<>();
+    public static final Trigger<Integer> ACT_CHANGE = new Trigger<>();
+    public static final Trigger<AbstractChest> CHEST_OPENED = new Trigger<>();
 
     private static boolean disabled() {
         return CardCrawlGame.mode != CardCrawlGame.GameMode.GAMEPLAY;
@@ -151,6 +155,44 @@ public class QuestTriggers {
             if (disabled()) return;
 
             VICTORY.trigger();
+        }
+    }
+
+    @SpirePatch2(
+            clz = AbstractDungeon.class,
+            method = "dungeonTransitionSetup"
+    )
+    public static class dungeonTransitionSetup {
+        @SpirePostfixPatch
+        public static void dungeonTransitionPostfix(){
+            if (disabled()) return;
+            ACT_CHANGE.trigger(AbstractDungeon.actNum);
+        }
+    }
+
+    @SpirePatch2(
+            clz = AbstractChest.class,
+            method = "open",
+            paramtypez = {boolean.class}
+    )
+    public static class Open{
+        @SpirePostfixPatch
+        public static void OpenChestPostfix(AbstractChest __instance, boolean bossChest){
+            if (disabled()) return;
+            CHEST_OPENED.trigger(__instance);
+        }
+    }
+
+    @SpirePatch2(
+            clz = BossChest.class,
+            method = "open",
+            paramtypez = {boolean.class}
+    )
+    public static class OpenBoss{
+        @SpirePostfixPatch
+        public static void OpenChestPostfix(AbstractChest __instance, boolean bossChest){
+            if (disabled()) return;
+            CHEST_OPENED.trigger(__instance);
         }
     }
 }
