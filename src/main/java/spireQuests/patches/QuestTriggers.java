@@ -193,6 +193,7 @@ public class QuestTriggers {
             method = "open",
             paramtypez = {boolean.class}
     )
+
     public static class Open{
         @SpirePostfixPatch
         public static void OpenChestPostfix(AbstractChest __instance, boolean bossChest){
@@ -206,11 +207,14 @@ public class QuestTriggers {
             method = "open",
             paramtypez = {boolean.class}
     )
-    public static class OpenBoss{
+    public static class OpenBoss {
         @SpirePostfixPatch
-        public static void OpenChestPostfix(AbstractChest __instance, boolean bossChest){
+        public static void OpenChestPostfix(AbstractChest __instance, boolean bossChest) {
             if (disabled()) return;
             CHEST_OPENED.trigger(__instance);
+        }
+    }
+
     @SpirePatch2(clz= PotionPopUp.class, method = "updateInput")
     @SpirePatch2(clz= PotionPopUp.class, method = "updateTargetMode")
     @SpirePatch2(clz = PotionPopUp.class, method = "updateInput")

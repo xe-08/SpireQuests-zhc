@@ -53,7 +53,7 @@ public class CeaselessHungerQuest extends AbstractQuest {
 
     @Override
     public boolean canSpawn() {
-        return AbstractDungeon.actNum == 1;
+        return AbstractDungeon.actNum == 1 && !ChestRoomEnteredThisAct.chestRoomEntered;
     }
 
     @Override
