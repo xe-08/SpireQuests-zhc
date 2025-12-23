@@ -13,6 +13,7 @@ import com.megacrit.cardcrawl.relics.AbstractRelic.RelicTier;
 import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
 import javassist.CtBehavior;
 import spireQuests.Anniv8Mod;
+import spireQuests.patches.ShowMarkedNodesOnMapPatch;
 import spireQuests.questStats.StatRewardBox;
 import spireQuests.util.QuestStrings;
 import spireQuests.util.QuestStringsUtils;
@@ -81,6 +82,8 @@ public abstract class AbstractQuest implements Comparable<AbstractQuest> {
     //If true, the quest will automatically complete when the player leaves the room with the conditions fulfilled.
     public boolean isAutoComplete;
 
+    //If true, the quest will automatically fail when the player leaves the room with the fail conditions fulfilled.
+    public boolean isAutoFail;
     /*
     trackers that require another tracker to be completed first
 
@@ -103,6 +106,7 @@ public abstract class AbstractQuest implements Comparable<AbstractQuest> {
 
         complete = false;
         isAutoComplete = false;
+        isAutoFail = false;
 
         questStrings = QuestStringsUtils.getQuestString(id);
         if (questStrings == null) {
@@ -386,13 +390,22 @@ public abstract class AbstractQuest implements Comparable<AbstractQuest> {
         for (QuestReward r : questRewards) {
             r.init();
         }
+        if(this instanceof MarkNodeQuest) {
+            MarkNodeQuest q = (MarkNodeQuest) this;
+            q.markNodes(AbstractDungeon.map, q.rng());
+        }
     }
 
     public void onComplete() {
-
+        if(this instanceof MarkNodeQuest) {
+            ShowMarkedNodesOnMapPatch.ImageField.ClearMarks(id);
+        }
     }
 
     public void onFail() {
+        if(this instanceof MarkNodeQuest) {
+            ShowMarkedNodesOnMapPatch.ImageField.ClearMarks(id);
+        }
     }
 
     public boolean canSpawn() {
@@ -1003,12 +1016,20 @@ public abstract class AbstractQuest implements Comparable<AbstractQuest> {
         @SpireInsertPatch(locator = Locator.class)
         public static void enteringRoomPatch(AbstractDungeon __instance, SaveFile file) {
             if (AbstractDungeon.currMapNode != null) {
-                AbstractQuest q = QuestManager.quests().stream()
+                AbstractQuest q1 = QuestManager.quests().stream()
                         .filter(quest -> quest.isAutoComplete && quest.isCompleted())
                         .findAny()
                         .orElse(null);
-                if(q != null) {
-                    QuestManager.completeQuest(q);
+                if(q1 != null) {
+                    QuestManager.completeQuest(q1);
+                }
+
+                AbstractQuest q2 = QuestManager.quests().stream()
+                        .filter(quest -> quest.isAutoFail && quest.isFailed())
+                        .findAny()
+                        .orElse(null);
+                if(q2 != null) {
+                    QuestManager.failQuest(q2);
                 }
             }
         }

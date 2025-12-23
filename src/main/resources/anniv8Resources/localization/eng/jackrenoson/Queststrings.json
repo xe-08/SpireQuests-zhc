@@ -12,5 +12,14 @@
       " unique colors to your deck.",
       "Colors added:"
     ]
+  },
+  "${ModID}:TreasureMapQuest": {
+    "TITLE": "Treasure Map",
+    "DESCRIPTION": "You find a map pointing to a Rest Site later this Act. Go there to #yDig up some treasure!",
+    "AUTHOR": "JackRenoson",
+    "REWARD": "Dig up a random Relic.",
+    "TRACKER_TEXT": [
+      "Go to the X-marked Rest Site."
+    ]
   }
 }
