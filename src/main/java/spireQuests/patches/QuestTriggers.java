@@ -1,10 +1,6 @@
 package spireQuests.patches;
 
-import basemod.BaseMod;
-import basemod.patches.com.megacrit.cardcrawl.relics.AbstractRelic.InstantObtainRelicGetHook;
-import basemod.patches.com.megacrit.cardcrawl.relics.AbstractRelic.InstantObtainRelicGetHook2;
 import com.evacipated.cardcrawl.modthespire.lib.*;
-import com.megacrit.cardcrawl.actions.GameActionManager;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
@@ -14,7 +10,6 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.map.MapRoomNode;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.orbs.AbstractOrb;
 import com.megacrit.cardcrawl.orbs.EmptyOrbSlot;
 import com.megacrit.cardcrawl.potions.AbstractPotion;
@@ -30,7 +25,6 @@ import com.megacrit.cardcrawl.ui.panels.PotionPopUp;
 import com.megacrit.cardcrawl.ui.panels.TopPanel;
 import com.megacrit.cardcrawl.vfx.campfire.CampfireSmithEffect;
 import javassist.CtBehavior;
-import spireQuests.Anniv8Mod;
 import spireQuests.quests.Trigger;
 
 import java.util.ArrayList;
