@@ -31,6 +31,7 @@ import java.io.IOException;
 import java.util.*;
 
 import static spireQuests.Anniv8Mod.*;
+import static spireQuests.util.LanguageUtils.formatLanguage;
 
 @SpirePatch(
         clz = AbstractPlayer.class,
@@ -91,7 +92,7 @@ public class QuestManager {
                                     quest.questboundRelics.add(r);
                                     QuestboundRelicsPatch.QuestboundRelicFields.isQuestbound.set(r, quest);
                                     String questName = FontHelper.colorString(quest.name, "y");
-                                    r.tips.add(new PowerTip(keywords.get("Questbound").PROPER_NAME, String.format(CardCrawlGame.languagePack.getUIString(makeID("Questbound")).TEXT[2],questName)));
+                                    r.tips.add(new PowerTip(keywords.get("Questbound").PROPER_NAME, formatLanguage(CardCrawlGame.languagePack.getUIString(makeID("Questbound")).TEXT[2],questName)));
                                 }
                             }
                         }
@@ -169,7 +170,7 @@ public class QuestManager {
                 }
                 String questName = FontHelper.colorString(quest.name, "y");
                 r.instantObtain();
-                r.tips.add(new PowerTip(keywords.get("Questbound").PROPER_NAME, String.format(CardCrawlGame.languagePack.getUIString(makeID("Questbound")).TEXT[2],questName)));
+                r.tips.add(new PowerTip(keywords.get("Questbound").PROPER_NAME, formatLanguage(CardCrawlGame.languagePack.getUIString(makeID("Questbound")).TEXT[2],questName)));
             });
         }
         QuestStatManager.markTaken(quest.id);
