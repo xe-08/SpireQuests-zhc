@@ -1,21 +1,14 @@
 package spireQuests.quests.ramchops;
 
 import com.evacipated.cardcrawl.modthespire.lib.*;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.monsters.MonsterGroup;
 import com.megacrit.cardcrawl.rooms.CampfireUI;
 import com.megacrit.cardcrawl.ui.campfire.AbstractCampfireOption;
 import javassist.CtBehavior;
-import spireQuests.Anniv8Mod;
-import spireQuests.patches.QuestTriggers;
 import spireQuests.quests.AbstractQuest;
 import spireQuests.quests.QuestManager;
 import spireQuests.quests.QuestReward;
 import spireQuests.quests.ramchops.effects.EatMarshmallowEffect;
-import spireQuests.quests.ramchops.monsters.EvilSentry;
 import spireQuests.quests.ramchops.patch.MarshmallowOption;
 import spireQuests.quests.ramchops.relics.SmoresRelic;
 
