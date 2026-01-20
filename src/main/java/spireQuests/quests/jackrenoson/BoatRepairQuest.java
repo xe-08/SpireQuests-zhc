@@ -23,6 +23,7 @@ import spireQuests.quests.modargo.MulticlassQuest;
 import spireQuests.ui.QuestBoardScreen;
 import spireQuests.util.NodeUtil;
 import spireQuests.util.TexLoader;
+import spireQuests.util.Wiz;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -88,7 +89,7 @@ public class BoatRepairQuest extends AbstractQuest implements MarkNodeQuest, Cus
                 if(r.relicId.equals(Anchor.ID) || r.relicId.equals(HornCleat.ID) || r.relicId.equals(CaptainsWheel.ID)) return false;
             }
         }
-        return !AbstractDungeon.player.hasRelic(Anchor.ID) || AbstractDungeon.player.hasRelic(HornCleat.ID) || AbstractDungeon.player.hasRelic(CaptainsWheel.ID);
+        return !Wiz.p().hasRelic(Anchor.ID) || !Wiz.p().hasRelic(HornCleat.ID) || !Wiz.p().hasRelic(CaptainsWheel.ID);
     }
 
     @Override
