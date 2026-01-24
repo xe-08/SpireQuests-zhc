@@ -105,7 +105,7 @@ public class MothFriendPatch {
         public static void Insert(DamageInfo info, int damageAmount) {
             if(!hasMoth(false) || isFlyingMoth)
                 return;
-            if(info.owner != null && info.type != DamageInfo.DamageType.THORNS && damageAmount > 0) {
+            if(info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.type != DamageInfo.DamageType.HP_LOSS && damageAmount > 0) {
                 CardCrawlGame.sound.play(MOTH_SFX,0.1F);
                 AbstractDungeon.effectList.add(new ExclamationParticle(drawX,drawY + 50.0F * Settings.scale));
                 for(AbstractQuest q : QuestManager.quests()) {

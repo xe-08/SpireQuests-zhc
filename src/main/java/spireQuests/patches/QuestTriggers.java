@@ -632,7 +632,7 @@ public class QuestTriggers {
         public static void onDamage(AbstractPlayer __instance, DamageInfo info, int damageAmount) {
             if (disabled()) return;
 
-            UNBLOCKED_ATTACK_DAMAGE_TAKEN.trigger(damageAmount);
+            if(info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.type != DamageInfo.DamageType.HP_LOSS) UNBLOCKED_ATTACK_DAMAGE_TAKEN.trigger(damageAmount);
         }
 
         private static class Locator extends SpireInsertLocator {
