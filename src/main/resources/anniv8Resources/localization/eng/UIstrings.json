@@ -44,7 +44,8 @@
       "a random Uncommon relic",
       "a random Rare relic",
       "a random relic",
-      "Gain #b%d Max HP."
+      "Gain #b%d Max HP.",
+      "Choose a card to remove a card from your deck."
     ]
   },
   "${ModID}:SingleCardReward": {

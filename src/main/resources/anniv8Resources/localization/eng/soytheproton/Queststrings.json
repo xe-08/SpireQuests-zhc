@@ -39,10 +39,11 @@
   },
   "${ModID}:SpeedrunQuest": {
     "TITLE": "Speedrun!",
-    "DESCRIPTION": "Finish #b3 combats within #b4 turns.",
+    "DESCRIPTION": "Finish #b3 combats within #b4 turns this act.",
     "AUTHOR": "SoytheProton",
+    "REWARD": "Choose a card to remove a card from your deck.",
     "TRACKER_TEXT": [
-      "Combats completed in 4 turns"
+      "Combats completed in 4 turns this act"
     ]
   }
 }
