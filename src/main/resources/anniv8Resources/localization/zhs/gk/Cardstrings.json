@@ -1,0 +1,38 @@
+{
+  "${ModID}:TripleCast": {
+    "NAME": "三重施法",
+    "DESCRIPTION": "激发你的下一个充能球三次。"
+  },
+  "${ModID}:Smash": {
+    "NAME": "猛击",
+    "DESCRIPTION": "造成 !D! 点伤害，给予所有敌人 !M! 层易伤。 NL 消耗。"
+  },
+  "${ModID}:Thriver": {
+    "NAME": "茁壮",
+    "DESCRIPTION": "{@@}获得 !B! 点格挡。 NL 抽 !M! 张牌{!M!|0,>1=s}。 NL 丢弃 !M! 张牌{!M!|0,>1=s}。"
+  },
+  "${ModID}:Cardmancy": {
+    "NAME": "牌术",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 本回合你打出的下一张卡牌将返回到你的抽牌堆顶部并升级。"
+  },
+  "${ModID}:Balance": {
+    "NAME": "平衡",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 进入平静。"
+  },
+  "${ModID}:Trapshot": {
+    "NAME": "陷阱射击",
+    "DESCRIPTION": "造成 !D! 点伤害。 hermit:Dead_On: 目标在本回合内失去的力量值等于此次攻击造成的未格挡伤害值。"
+  },
+  "${ModID}:Unrelenting": {
+    "NAME": "不屈",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 你打出的下一张攻击牌耗能为0。"
+  },
+  "${ModID}:Taunt": {
+    "NAME": "嘲讽",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 给予所有敌人 !M! 层易伤。"
+  },
+  "${ModID}:StoneArmor": {
+    "NAME": "石甲",
+    "DESCRIPTION": "获得 !M! 层多层护甲。 NL 失去1点敏捷。"
+  }
+}

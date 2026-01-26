@@ -1,0 +1,6 @@
+{
+  "${ModID}:Ecdysis": {
+    "NAME": "蜕皮",
+    "DESCRIPTION": "将 !M! 张随机能力牌洗入你的抽牌堆。 NL 消耗。"
+  }
+}

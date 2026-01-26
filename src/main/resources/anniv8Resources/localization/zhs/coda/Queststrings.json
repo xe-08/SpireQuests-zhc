@@ -1,0 +1,87 @@
+{
+  "${ModID}:OrbSpinnerQuest": {
+    "TITLE": "充能球操控者",
+    "DESCRIPTION": "在一个回合内激发 #b4 种不同的充能球。",
+    "AUTHOR": "coda",
+    "TRACKER_TEXT": [
+      "在一个回合内激发4种不同的充能球",
+      "已激发的充能球"
+    ]
+  },
+  "${ModID}:BackToBasicsQuest": {
+    "TITLE": "返璞归真",
+    "DESCRIPTION": "在不打出任何罕见或稀有卡牌的情况下击败一名精英或Boss。",
+    "AUTHOR": "coda",
+    "REWARD": "升级三张随机的初始或普通卡牌。",
+    "TRACKER_TEXT": [
+      "在不打出罕见或稀有卡牌的情况下击败精英或Boss"
+    ]
+  },
+  "${ModID}:UnbreakableQuest": {
+    "TITLE": "不屈",
+    "DESCRIPTION": "在 #b17 层内承受相当于你基础最大生命值的伤害。",
+    "AUTHOR": "coda",
+    "TRACKER_TEXT": [
+      "剩余需承受伤害: ",
+      "剩余层数: "
+    ],
+    "EXTRA_TEXT": [
+      "在 #b17 层",
+      "内承受 #b 点伤害。"
+    ]
+  },
+  "${ModID}:BuildAComboQuest": {
+    "TITLE": "组合构筑",
+    "DESCRIPTION": "在一个回合内打出一张消耗为 #b1 、#b2 和 #b3 的卡牌。",
+    "AUTHOR": "coda",
+    "TRACKER_TEXT": [
+      "已打出1消耗卡牌",
+      "已打出2消耗卡牌",
+      "已打出3消耗卡牌"
+    ]
+  },
+  "${ModID}:KeyCollector": {
+    "TITLE": "钥匙收集者",
+    "DESCRIPTION": "在本幕结束前收集红宝石钥匙、绿宝石钥匙和蓝宝石钥匙。",
+    "AUTHOR": "coda",
+    "TRACKER_TEXT": [
+      "收集红宝石钥匙",
+      "收集绿宝石钥匙",
+      "收集蓝宝石钥匙"
+    ]
+  },
+  "${ModID}:BountyCharadeQuest": {
+    "TITLE": "悬赏：戏法师",
+    "DESCRIPTION": "一股恶意的能量聚合体降临尖塔。将其斩断并驾驭它的力量。 NL 本幕的下一个精英敌人将被替换为 #y戏法师 。",
+    "AUTHOR": "coda",
+    "TRACKER_TEXT": [
+      "能量聚合体已斩断"
+    ]
+  },
+  "${ModID}:UntouchableQuest": {
+    "TITLE": "毫发无伤",
+    "DESCRIPTION": "连续赢得 #b3 场战斗且未损失任何生命值。",
+    "AUTHOR": "coda",
+    "TRACKER_TEXT": [
+      "无伤连胜场数"
+    ]
+  },
+  "${ModID}:HellbentQuest": {
+    "TITLE": "孤注一掷",
+    "DESCRIPTION": " #b5 个回合结束时手牌为空。",
+    "AUTHOR": "coda",
+    "TRACKER_TEXT": [
+      "空手回合数"
+    ]
+  },
+  "${ModID}:TripleDipperQuest": {
+    "TITLE": "三重奏",
+    "DESCRIPTION": "向你的牌组中添加 #b3 张 #y攻击 牌、#b3 张 #y技能 牌 和 #b3 张 #y能力 牌。",
+    "AUTHOR": "coda",
+    "TRACKER_TEXT": [
+      "已添加攻击牌",
+      "已添加技能牌",
+      "已添加能力牌"
+    ]
+  }
+}

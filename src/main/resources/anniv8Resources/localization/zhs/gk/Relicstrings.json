@@ -1,0 +1,9 @@
+{
+  "${ModID}:ProudBadge": {
+    "NAME": "自豪徽章",
+    "FLAVOR": "这枚闪亮的小徽章彰显着你的实力。",
+    "DESCRIPTIONS": [
+      "每当你使用一瓶药水时，获得 #b%s 点临时 #y力量 [REMOVE_SPACE] 。"
+    ]
+  }
+}

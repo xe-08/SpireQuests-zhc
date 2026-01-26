@@ -1,0 +1,72 @@
+Some unprocessed parts
+
+ramchops中的：
+Cardstrings.json
+4：  "DESCRIPTION": "stslib:Exhaustive !stslib:ex!.  26："（此卡牌文本由故障机器人赞助。System.out.println(\"Hello world!\"))",
+
+Queststrings.json
+12："${ModID}:CeaselessHungerQuest": {
+    "TITLE": "无尽饥渴",
+    "DESCRIPTION": "Upon pickup, obtain #yN'loth's #yFace [REMOVE_SPACE]. Obtain another #yN'loth's #yFace at the start of Act 2. Open a chest in Act 3 to complete this Quest.",
+    "AUTHOR": "RamChops Games",
+    "REWARD": "Remove all #yN'loth's #yFaces and obtain #b2 random #yRelics for each #yN'loth's #yFace removed.",
+    "TRACKER_TEXT": [
+      "打开一个第三幕宝箱"
+    ]
+  },
+
+Keywordstrings.json
+[
+    {
+      "PROPER_NAME": "Test",
+      "NAMES": [
+        "test",
+        "Test"
+      ],
+      "DESCRIPTION": "不应在此。"
+    },
+    {
+      "ID": "Questbound",
+      "PROPER_NAME": "Questbound",
+      "NAMES": [
+        "questbound"
+      ],
+      "DESCRIPTION": "每当你完成绑定的任务时，移除此效果。无法通过任何其他方式修改或移除。"
+    }
+  ]
+
+snumodder/Cardstrings.json
+  "${ModID}:TwinModule": {
+    "NAME": "双子模块",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL stslib:Persist !stslib:persist!",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      "stslib:Persist !stslib:persist!"
+
+indi_keurod/Relicstrings.json UIstrings.json
+{
+  "${ModID}:GoldStakeRelic": {
+    "NAME": "金注",
+    "FLAVOR": "吉姆博正注视着。",
+    "DESCRIPTIONS": [
+      "卡牌奖励有几率变为 #y${ModID}:Eternal, #y${ModID}:Perishable, or #y${ModID}:Rental.",
+      "卡牌奖励有几率变为 #y${ModID}:Eternal, #y${ModID}:Perishable, or #y${ModID}:Rental. NL 它们也有较小几率变为 #y${ModID}:Foil, #y${ModID}:Holo, #y${ModID}:Polychrome, or #y${ModID}:Negative."
+    ]
+  }
+}
+  "${ModID}:BalatroBlinds": {
+    "TEXT_DICT": {
+      "Arm": "[${ModID}:ArmIcon] 臂膀",
+      "Arm_Description": "永久将你打出的第一张已升级卡牌替换为普通的未升级版本。",
+      "Club": "[${ModID}:ClubIcon] 俱乐部",
+      "Club_Description": "所有初始卡牌获得减益。",
+      "Eye": "[${ModID}:EyeIcon] 眼睛",
+      "Eye_Description": "当你连续打出两张相同类型的卡牌时，失去 #b3 点生命。",
+      "Fish": "[${ModID}:FishIcon] 鱼",
+
+
+
+
+
+
+

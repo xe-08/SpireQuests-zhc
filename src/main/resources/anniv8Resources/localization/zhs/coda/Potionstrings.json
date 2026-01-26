@@ -1,0 +1,9 @@
+{
+  "${ModID}:NuclearJuicePotion": {
+    "NAME": "核能果汁",
+    "DESCRIPTIONS": [
+      "将 #b",
+      " 张 #y裂变+ 加入你的手牌。"
+    ]
+  }
+}

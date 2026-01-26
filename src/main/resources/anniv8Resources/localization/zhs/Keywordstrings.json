@@ -1,0 +1,18 @@
+[
+    {
+      "PROPER_NAME": "Test",
+      "NAMES": [
+        "test",
+        "Test"
+      ],
+      "DESCRIPTION": "不应在此。"
+    },
+    {
+      "ID": "Questbound",
+      "PROPER_NAME": "Questbound",
+      "NAMES": [
+        "questbound"
+      ],
+      "DESCRIPTION": "每当你完成绑定的任务时，移除此效果。无法通过任何其他方式修改或移除。"
+    }
+  ]

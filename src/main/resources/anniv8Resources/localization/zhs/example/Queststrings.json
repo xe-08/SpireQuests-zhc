@@ -1,0 +1,36 @@
+{
+  "${ModID}:TestQuest": {
+    "TITLE": "试炼任务",
+    "DESCRIPTION": "一段非常非常长的任务描述，我觉得确实需要换行处理，希望这样能行，太棒了！ NL NL 这样真的可以吗！？",
+    "AUTHOR": "ME",
+    "REWARD": "获得一个燃烧之血和100金币。",
+    "TRACKER_TEXT": [
+      "连续获得5张普通卡牌",
+      "获得一个燃烧之血和100金币"
+    ]
+  },
+  "${ModID}:EnterRoomTestQuest": {
+    "TITLE": "进入房间测试",
+    "DESCRIPTION": "进入5个？房间。",
+    "AUTHOR": "Test",
+    "TRACKER_TEXT": [
+      "？房间"
+    ]
+  },
+  "${ModID}:LeaveRoomTestQuest": {
+    "TITLE": "离开房间测试",
+    "DESCRIPTION": "两次在持有50或更少金币时离开商店。",
+    "AUTHOR": "Test",
+    "TRACKER_TEXT": [
+      "持有小于50金币时离开商店"
+    ]
+  },
+  "${ModID}:DefectOnlyTestQuest": {
+    "TITLE": "故障机器人专属测试",
+    "DESCRIPTION": "抵达幕府BOSS。",
+    "AUTHOR": "Test",
+    "TRACKER_TEXT": [
+      "已抵达BOSS"
+    ]
+  }
+}

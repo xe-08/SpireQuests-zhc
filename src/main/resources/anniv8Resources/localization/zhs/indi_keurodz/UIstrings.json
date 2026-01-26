@@ -1,0 +1,77 @@
+{
+  "${ModID}:DebuffedBalatro": {
+    "TEXT": [
+      "${ModID}:Debuffed",
+      "%s NL ${ModID}:Debuffed."
+    ]
+  },
+  "${ModID}:BalatroEditions": {
+    "TEXT": [
+      "刻印",
+      "#g箔片 - 首次打出此牌时获得 #b50 #y金币 。 NL #g全息 - 打出此牌后，获得 #b10 点临时 #y力量 。 NL #g多色 - #b50% 几率额外打出一次。 NL #g负面 - 抽到此牌时，抽一张牌。"
+    ]
+  },
+  "${ModID}:BalatroQuestCombatReward": {
+    "TEXT": [
+      "为卡牌施加刻印",
+      "选择3张卡牌为其施加刻印"
+    ]
+  },
+  "${ModID}:RentalShop": {
+    "TEXT": [
+      "租赁卡牌归还服务",
+      "向商人归还任意数量的 #y租赁 卡牌，将其从你的牌组中移除。"
+    ]
+  },
+  "${ModID}:BalatroBlinds": {
+    "TEXT_DICT": {
+      "Arm": "[${ModID}:ArmIcon] 臂膀",
+      "Arm_Description": "永久将你打出的第一张已升级卡牌替换为普通的未升级版本。",
+      "Club": "[${ModID}:ClubIcon] 俱乐部",
+      "Club_Description": "所有初始卡牌获得减益。",
+      "Eye": "[${ModID}:EyeIcon] 眼睛",
+      "Eye_Description": "当你连续打出两张相同类型的卡牌时，失去 #b3 点生命。",
+      "Fish": "[${ModID}:FishIcon] 鱼",
+      "Fish_Description": "回合开始后抽到的卡牌以面朝下的形式抽取。",
+      "Flint": "[${ModID}:FlintIcon] 燧石",
+      "Flint_Description": "每回合你打出的第一张 #y攻击 牌造成一半伤害。",
+      "Goad": "[${ModID}:GoadIcon] 刺激",
+      "Goad_Description": "所有普通卡牌获得减益。",
+      "Head": "[${ModID}:HeadIcon] 头颅",
+      "Head_Description": "所有罕见卡牌获得减益。",
+      "Hook": "[${ModID}:HookIcon] 钩子",
+      "Hook_Description": "每当你打出一张牌时，丢弃 #b2 张牌，并抽取等量的牌。",
+      "House": "[${ModID}:HouseIcon] 房屋",
+      "House_Description": "第一手牌以面朝下的形式抽取。",
+      "Manacle": "[${ModID}:ManacleIcon] 镣铐",
+      "Manacle_Description": "每回合开始时少抽 #b1 张牌。",
+      "Mark": "[${ModID}:MarkIcon] 标记",
+      "Mark_Description": "所有能力牌以面朝下的形式抽取。",
+      "Mouth": "[${ModID}:MouthIcon] 嘴巴",
+      "Mouth_Description": "当你打出的牌与本回合打出的第一张牌类型不同时，失去 #b3 点生命。",
+      "Needle": "[${ModID}:NeedleIcon] 针",
+      "Needle_Description": "敌人生命值减半。在你的第一个回合开始时，额外抽 #b5 张牌并获得 #b3 点额外 [E] 。在你的每个回合结束时，失去 #b10 点生命。",
+      "Ox": "[${ModID}:OxIcon] 公牛",
+      "Ox_Description": "当你打出本场对战中打出次数最多的卡牌时，金币变为 #b0 。",
+      "Ox_Extra": "(打出次数最多的卡牌：%s)",
+      "Pillar": "[${ModID}:PillarIcon] 柱子",
+      "Pillar_Description": "卡牌在打出后获得减益。",
+      "Plant": "[${ModID}:PlantIcon] 植物",
+      "Plant_Description": "所有能力牌获得减益。",
+      "Psychic": "[${ModID}:PsychicIcon] 灵媒",
+      "Psychic_Description": "在每个回合结束时，每有 #b1 点未使用的能量，失去 #b3 点生命。",
+      "Serpent": "[${ModID}:SerpentIcon] 蛇",
+      "Serpent_Description": "在你的回合开始时，抽 #b3 张牌。每当你打出一张牌时，抽 #b3 张牌。",
+      "Tooth": "[${ModID}:ToothIcon] 牙齿",
+      "Tooth_Description": "每打出一张牌，失去 #b1 金币。",
+      "Wall": "[${ModID}:WallIcon] 墙",
+      "Wall_Description": "敌人生命值增加 #b10% 。",
+      "Water": "[${ModID}:WaterIcon] 水",
+      "Water_Description": "在你的回合结束时，将你的弃牌堆洗入抽牌堆。",
+      "Wheel": "[${ModID}:WheelIcon] 轮子",
+      "Wheel_Description": "每 #b7 张牌中有 #b1 张以面朝下的形式抽取。",
+      "Window": "[${ModID}:WindowIcon] 窗户",
+      "Window_Description": "所有稀有卡牌获得减益。"
+    }
+  }
+}
