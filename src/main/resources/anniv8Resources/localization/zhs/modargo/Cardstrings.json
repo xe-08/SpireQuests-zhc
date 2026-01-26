@@ -1,0 +1,60 @@
+{
+  "${ModID}:PerfectlyPacked": {
+    "NAME": "完美封装",
+    "DESCRIPTION": "{@@}{!Upgrades!|>0=固有. NL }从你的抽牌堆中选择三张来自不同卡包的卡牌之一加入手牌。 NL 消耗。",
+    "EXTENDED_DESCRIPTION": ["抽牌堆中没有带卡包的卡牌。"]
+  },
+  "${ModID}:TheBlackstaff": {
+    "NAME": "黑杖",
+    "DESCRIPTION": "获得 !M! 点临时生命。 NL 给予 !M! 层 ${ModID}:固有. NL 将此卡洗入你的抽牌堆。"
+  },
+  "${ModID}:BloodInTheChalice": {
+    "NAME": "圣杯之血",
+    "DESCRIPTION": "虚无。 NL 失去 !M! 点生命。 NL 消耗。"
+  },
+  "${ModID}:FocusedTrance": {
+    "NAME": "专注冥想",
+    "DESCRIPTION": "虚无。 NL 获得 !M! 层脆弱。 NL 消耗。"
+  },
+  "${ModID}:PrimordialFlux": {
+    "NAME": "原初涌动",
+    "DESCRIPTION": "虚无。 NL 将 1 张 *粘液 洗入你的抽牌堆。 NL 消耗。"
+  },
+  "${ModID}:EssenceOfFlame": {
+    "NAME": "火焰精华",
+    "DESCRIPTION": "虚无。 NL 将 1 张 *灼伤 加入你的手牌。 NL 消耗。"
+  },
+  "${ModID}:PowerFromTheDark": {
+    "NAME": "黑暗之力",
+    "DESCRIPTION": "虚无。 NL 将 1 张 *虚空 置于你的抽牌堆底部。 NL 消耗。"
+  },
+  "${ModID}:BloodfireRitualQuestboundPlaceholder": {
+    "NAME": "血火仪式",
+    "DESCRIPTION": "在战斗开始时，变为一张任务的特殊卡牌。"
+  },
+  "${ModID}:Pain": {
+    "NAME": "",
+    "DESCRIPTION": "无法打出。 NL 在手牌中时， NL 每打出一张其他卡牌，失去 1 点格挡。"
+  },
+  "${ModID}:Regret": {
+    "NAME": "",
+    "DESCRIPTION": "无法打出。 NL 在你的回合结束时，失去等同于手牌数量的格挡。"
+  },
+  "${ModID}:NetherStrike": {
+    "NAME": "幽界打击",
+    "DESCRIPTION": "造成 !D! 点伤害。如果本回合你抽到过诅咒，给予 !M! 层虚弱和 !M! 层易伤。"
+  },
+  "${ModID}:WickedExchange": {
+    "NAME": "邪恶交易",
+    "DESCRIPTION": "丢弃手牌中所有的诅咒。抽等量的牌。",
+    "UPGRADE_DESCRIPTION": "保留。 NL 丢弃手牌中所有的诅咒。抽等量的牌。"
+  },
+  "${ModID}:Curseblast": {
+    "NAME": "诅咒爆裂",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。你牌组中每有一张诅咒，额外造成 !M! 点伤害。"
+  },
+  "${ModID}:SkullGaze": {
+    "NAME": "颅骨凝视",
+    "DESCRIPTION": "敌人失去 1 点力量，你牌组中每有2张诅咒，敌人便失去1点力量。 NL 消耗。"
+  }
+}

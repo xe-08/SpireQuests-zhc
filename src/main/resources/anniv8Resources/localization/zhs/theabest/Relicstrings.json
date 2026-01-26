@@ -1,0 +1,16 @@
+{
+  "${ModID}:NailPolish": {
+    "NAME": "指甲油",
+    "FLAVOR": "务必展现出最好的自己。",
+    "DESCRIPTIONS": [
+      "所有 #y爪击 牌被 #y升级 。"
+    ]
+  },
+  "${ModID}:GlassBar": {
+    "NAME": "玻璃棒",
+    "FLAVOR": "并非坚固之物，尽量别弄断了。",
+    "DESCRIPTIONS": [
+      "在你的回合结束时，获得 #b12 点 #y格挡 。每打出一张牌，获得的 #y格挡 减少 #b2 点。"
+    ]
+  }
+}

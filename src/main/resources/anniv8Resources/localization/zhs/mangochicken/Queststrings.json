@@ -1,0 +1,10 @@
+{
+  "${ModID}:HandicapQuest": {
+    "TITLE": "让步",
+    "DESCRIPTION": "在本幕的一场精英战斗中，于第一回合打出 #b0 张牌。 NL 我感觉自己有点太强了，让你先手，来场公平对决！",
+    "AUTHOR": "Mangochicken",
+    "TRACKER_TEXT": [
+      "精英战首回合0张牌"
+    ]
+  }
+}

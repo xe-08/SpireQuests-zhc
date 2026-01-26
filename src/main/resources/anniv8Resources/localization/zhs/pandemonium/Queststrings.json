@@ -1,0 +1,16 @@
+{
+  "${ModID}:PristineCardsQuest": {
+    "TITLE": "崭新卡牌",
+    "DESCRIPTION": "在卡牌奖励中获得 #b3 张 #y崭新 卡牌。",
+    "AUTHOR": "Pandemonium",
+    "REWARD": "#y升级 你的 #y崭新 卡牌。",
+    "TRACKER_TEXT": [
+      "崭新卡牌"
+    ]
+  },
+  "${ModID}:PristineModifier": {
+    "TITLE": "崭新",
+    "DESCRIPTION": "如此崭新，闪闪发亮！任务激活期间随机出现在卡牌奖励中。",
+    "AUTHOR": "Pandemonium"
+  }
+}

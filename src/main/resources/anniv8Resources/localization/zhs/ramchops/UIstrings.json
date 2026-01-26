@@ -1,0 +1,8 @@
+{
+  "${ModID}:MarshmallowOption": {
+    "TEXT": [
+      "烤棉花糖",
+      "获得3点最大生命值。美味！"
+    ]
+  }
+}
