@@ -1,9 +1,0 @@
-{
-  "${ModID}:MonsterSpiritShieldPower": {
-    "NAME": "灵体护盾",
-    "DESCRIPTIONS": [
-      "每当你打出一张牌时，该敌人获得 #b",
-      " 点 #y格挡 。"
-    ]
-  }
-}

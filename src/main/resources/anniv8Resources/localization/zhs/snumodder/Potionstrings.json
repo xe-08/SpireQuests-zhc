@@ -1,9 +1,0 @@
-{
-  "${ModID}:TickAndTockPotion": {
-    "NAME": "滴答药水",
-    "DESCRIPTIONS": [
-      "抽 #b",
-      " 张牌。获得一瓶 #y虚弱 #y药水 。"
-    ]
-  }
-}

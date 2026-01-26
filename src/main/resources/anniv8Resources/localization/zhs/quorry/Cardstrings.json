@@ -1,6 +1,0 @@
-{
-  "${ModID}:LaborStrike": {
-    "NAME": "罢工",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果致命，获得 !M! 金币。"
-  }
-}
