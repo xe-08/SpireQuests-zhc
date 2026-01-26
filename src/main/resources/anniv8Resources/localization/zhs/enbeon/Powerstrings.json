@@ -1,0 +1,15 @@
+{
+  "${ModID}:FakeDevotionPower": {
+    "NAME": "虔敬",
+    "DESCRIPTIONS": [
+      "在其回合结束时，获得 #b",
+      " 层 #y真言 。"
+    ]
+  },
+  "${ModID}:FakeMantraPower": {
+    "NAME": "真言",
+    "DESCRIPTIONS": [
+      "当获得 #b10 层 #y真言 时，进入 #y神格 。"
+    ]
+  }
+}

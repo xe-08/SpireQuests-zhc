@@ -1,0 +1,36 @@
+{
+  "${ModID}:TestQuest": {
+    "TITLE": "远征",
+    "DESCRIPTION": "一段非常非常长的任务描述，我觉得并且希望它能够被适当地换行，哇哦！ NL NL 这样能行吗！？",
+    "AUTHOR": "ME",
+    "REWARD": "获得一个燃烧之血和b100金币。",
+    "TRACKER_TEXT": [
+      "连续获得5张普通卡牌",
+      "获得一个燃烧之血和100金币"
+    ]
+  },
+  "${ModID}:EnterRoomTestQuest": {
+    "TITLE": "进入房间测试",
+    "DESCRIPTION": "进入5个？房间。",
+    "AUTHOR": "Test",
+    "TRACKER_TEXT": [
+      "？房间"
+    ]
+  },
+  "${ModID}:LeaveRoomTestQuest": {
+    "TITLE": "离开房间测试",
+    "DESCRIPTION": "累计2次在持有b50或更少金币时离开商店。。",
+    "AUTHOR": "Test",
+    "TRACKER_TEXT": [
+      "持有小于50金币时离开商店的次数"
+    ]
+  },
+  "${ModID}:DefectOnlyTestQuest": {
+    "TITLE": "故障机器人专属测试",
+    "DESCRIPTION": "抵达章节BOSS房间。",
+    "AUTHOR": "Test",
+    "TRACKER_TEXT": [
+      "已抵达BOSS房间"
+    ]
+  }
+}

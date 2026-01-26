@@ -1,0 +1,10 @@
+{
+  "${ModID}:WatcherEliteMonster": {
+    "MOVES": [
+      "快速打击",
+      "重殴",
+      "挥手/保护"
+    ],
+    "NAME": "紫色残影"
+  }
+}
