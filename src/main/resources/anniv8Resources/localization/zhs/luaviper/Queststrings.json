@@ -8,12 +8,12 @@
     ]
   },
   "${ModID}:RapidImprovisationQuest": {
-    "TITLE": "快速应变",
-    "DESCRIPTION": "获得 #y任务绑定 的 #y蜕变 与 #y虫蛹 各一张。在下一场战斗中，打出这两张任务卡以及它们加入你抽牌堆的所有卡牌。",
+    "TITLE": "随机应变",
+    "DESCRIPTION": "获得 #y任务绑定 的 #y羽化 与 #y结茧 各一张。在下一场战斗中，打出这两张任务卡以及它们塞入你抽牌堆的所有卡牌。",
     "AUTHOR": "Lua Viper",
     "TRACKER_TEXT": [
-      "已打出蜕变",
-      "已打出虫蛹"
+      "已打出羽化",
+      "已打出结茧"
     ],
     "EXTRA_TEXT": [
       "",
@@ -21,8 +21,8 @@
     ]
   },
   "${ModID}:PrioritiesQuest": {
-    "TITLE": "分清主次",
-    "DESCRIPTION": "本幕的下一个精英将是监工。请按照从左到右的顺序，依次击败敌人。",
+    "TITLE": "明确分工",
+    "DESCRIPTION": "本幕的下一个精英将是监工三人组。请按照从左到右的顺序，依次击败敌人。",
     "AUTHOR": "Lua Viper",
     "REWARD": "本次战斗的所有卡牌奖励都将被 #y升级 。",
     "TRACKER_TEXT": [
