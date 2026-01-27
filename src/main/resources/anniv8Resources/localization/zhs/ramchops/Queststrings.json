@@ -57,7 +57,7 @@
     ]
   },
   "${ModID}:BloomerQuest": {
-    "TITLE": "好吧，花开者",
+    "TITLE": "好吧，绽放者",
     "DESCRIPTION": "拾取时，获得一个 #y任务绑定 的 #y绽放印记 。携带它攀登 #b10 层。",
     "AUTHOR": "RamChops Games",
     "TRACKER_TEXT": [
@@ -66,7 +66,7 @@
   },
   "${ModID}:HashtagBlessedQuest": {
     "TITLE": "#祝福",
-    "DESCRIPTION": "在每场战斗开始时，一个随机的非爪牙敌人将被赋予一个随机增益。击败第二幕首领。",
+    "DESCRIPTION": "在每场战斗开始时，一个随机的非爪牙敌人将被赋予一个随机的增益。直到你击败第二幕首领。",
     "AUTHOR": "RamChops Games",
     "TRACKER_TEXT": [
       "击败第二幕首领"
