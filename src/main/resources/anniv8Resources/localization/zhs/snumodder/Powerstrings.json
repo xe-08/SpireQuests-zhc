@@ -1,0 +1,22 @@
+{
+  "${ModID}:TickingPower": {
+    "NAME": "蓄力",
+    "DESCRIPTIONS": [
+      "如果你本回合打出 #b",
+      " 张牌，将其意图改为攻击。"
+    ]
+  },
+  "${ModID}:VirusPower": {
+    "NAME": "病毒",
+    "DESCRIPTIONS": [
+      "不会因为非攻击伤害而失去生命值。"
+    ]
+  },
+  "${ModID}:HaywirePower": {
+    "NAME": "失控",
+    "DESCRIPTIONS": [
+      "在其回合结束时，失去 #b",
+      " 点生命值。"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "${ModID}:ClumsyFiendFire": {
+    "NAME": "笨拙恶魔火焰",
+    "DESCRIPTION": " #y虚无 。 NL #y消耗 你的手牌。 NL #y消耗 。"
+  },
+  "${ModID}:ClumsyNightmare": {
+    "NAME": "笨拙梦魇",
+    "DESCRIPTION": " #y虚无 。 NL 选择一张牌。 NL #y消耗 。"
+  },
+  "${ModID}:ClumsyReboot": {
+    "NAME": "笨拙重启",
+    "DESCRIPTION": " #y虚无 。 NL 将所有手牌洗入抽牌堆。 NL #y消耗 。"
+  },
+  "${ModID}:ClumsyBlasphemy": {
+    "NAME": "笨拙渎神",
+    "DESCRIPTION": " #y虚无 。 NL 在下回合死亡。 NL #y消耗 。"
+  }
+}

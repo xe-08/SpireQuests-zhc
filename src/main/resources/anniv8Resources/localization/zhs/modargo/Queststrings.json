@@ -1,0 +1,122 @@
+{
+  "${ModID}:PeasantQuest": {
+    "TITLE": "平民",
+    "DESCRIPTION": "使你牌组中普通牌的数量减去罕见牌和稀有牌的数量后至少为 #b7 。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "普通牌盈余"
+    ]
+  },
+  "${ModID}:ChartTheUnknownQuest": {
+    "TITLE": "探索未知",
+    "DESCRIPTION": "进入 #b3 个 #y? 房间。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "？房间"
+    ]
+  },
+  "${ModID}:PackFanaticQuest": {
+    "TITLE": "扩展包爱好者",
+    "DESCRIPTION": "拥有来自每一个卡包的至少一张卡牌。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "牌组中的卡包"
+    ]
+  },
+  "${ModID}:SuperiorEliteQuest": {
+    "TITLE": "精英猎人",
+    "DESCRIPTION": "下一个与你交战的精英怪更为危险，拥有更多生命值、造成更多伤害，并且拥有 #y人工制品 。击败它以获取奖励！",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "已击败精英"
+    ]
+  },
+  "${ModID}:GatheringExpeditionQuest": {
+    "TITLE": "采集远征",
+    "DESCRIPTION": "尖塔中出现了新的花朵/矿物/宝石！留意地图上带有特殊标记的房间并造访其中 #b9 个来制作一件遗物。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "已收集物品",
+      "已收集花朵",
+      "已收集矿物",
+      "已收集宝石"
+    ],
+    "EXTRA_TEXT": [
+      "尖塔中出现了新的 #r花朵 ！留意地图上带有特殊标记的房间并造访其中 #b9 个来制作一件 #y花环 。",
+      "尖塔中出现了新的 #y矿物 ！留意地图上带有特殊标记的房间并造访其中 #b9 个来制作一件 #y尖塔合金头盔 。",
+      "尖塔中出现了新的 #b宝石 ！留意地图上带有特殊标记的房间并造访其中 #b9 个来制作一件 #y珠宝饰物 。"
+    ]
+  },
+  "${ModID}:MulticlassQuest": {
+    "TITLE": "多职业修行",
+    "DESCRIPTION": "另一名角色的卡牌将会出现在你的卡牌奖励中。将 #b3 张他们的牌加入你的牌组以掌握新的技巧。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "已添加卡牌"
+    ],
+    "EXTRA_TEXT": [
+      "多职业修行",
+      "多职业修行: %s",
+      "另一名角色的卡牌将会出现在你的卡牌奖励中。将 #b3 张他们的牌加入你的牌组以掌握新的技巧。",
+      " %s 的卡牌将会出现在你的卡牌奖励中。将 #b3 张他们的牌加入你的牌组以掌握新的技巧。"
+    ]
+  },
+  "${ModID}:PlatinumCafeMemberQuest": {
+    "TITLE": "白金咖啡馆会员",
+    "DESCRIPTION": "咖啡馆正在举办特别活动！买光酒保的所有商品并与每位咖啡馆顾客完成对话的客人将获得一份小礼物。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "已进入咖啡馆",
+      "酒保",
+      "顾客"
+    ]
+  },
+  "${ModID}:BloodfireRitualQuest": {
+    "TITLE": "血焰仪式",
+    "DESCRIPTION": "完成一项漫长的仪式以获得 #p黑杖 。每场战斗开始时，将一张特殊的 #b1 费 #y技能 牌洗入你的抽牌堆，该牌具有 #y虚无 和 #y消耗 ，并带有一些负面效果。使用这些特殊卡牌 #b20 次以完成仪式。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "仪式进度"
+    ]
+  },
+  "${ModID}:BountyDefectQuest": {
+    "TITLE": "悬赏：蓝色恶魔",
+    "DESCRIPTION": "一个无敌的金属恶魔在此徘徊。本幕的下一个精英怪将被替换为 #b故障机器人 。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "机煲已消灭"
+    ]
+  },
+  "${ModID}:BiomeSamplerQuest": {
+    "TITLE": "生态采样者",
+    "DESCRIPTION": "造访 #b5 个不同的生物群系。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "已造访生物群系"
+    ]
+  },
+  "${ModID}:RealityTwistQuest": {
+    "TITLE": "扭曲现实",
+    "DESCRIPTION": "有些奇怪的事情正在发生……这些敌人本不该在这里！你接下来的 #b4 场普通战斗将被替换为 #p不寻常 且 #r危险 的敌人组合。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "已完成的扭曲战斗"
+    ]
+  },
+  "${ModID}:EmbraceTheCurseQuest": {
+    "TITLE": "拥抱诅咒",
+    "DESCRIPTION": "获得 #p活体诅咒 ，它会在卡牌奖励中添加 #r诅咒 ，当你在抽牌堆中抽到一张诅咒时额外抽一张牌，并消除诅咒的负面效果。将 #b%s 张 #r诅咒 加入你的牌组，根据每个目标获得特殊卡牌（也会出现在卡牌奖励中）。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "已添加诅咒"
+    ]
+  },
+  "${ModID}:RaresAreGoodQuest": {
+    "TITLE": "稀有的就是好",
+    "DESCRIPTION": "将 #b4 张 #y稀有 卡牌加入你的牌组。",
+    "AUTHOR": "modargo",
+    "TRACKER_TEXT": [
+      "已添加稀有牌"
+    ]
+  }
+}

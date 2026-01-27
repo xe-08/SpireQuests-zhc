@@ -1,0 +1,10 @@
+{
+  "${ModID}:BountyWatcherQuest": {
+    "TITLE": "悬赏：紫色残影",
+    "DESCRIPTION": "一个使用法杖的暴躁老姐已被发现。本幕的下一个精英敌人将被替换为 #p观者 。",
+    "AUTHOR": "Enbeon",
+    "TRACKER_TEXT": [
+      "残影已除"
+    ]
+  }
+}

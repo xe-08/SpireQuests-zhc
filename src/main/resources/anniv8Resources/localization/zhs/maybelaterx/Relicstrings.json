@@ -1,0 +1,16 @@
+{
+  "${ModID}:BalancingStones": {
+    "NAME": "平衡石",
+    "FLAVOR": "一堆以精湛技艺堆叠起来的石头。",
+    "DESCRIPTIONS": [
+      "每当你用精确的伤害消灭一个敌人时，抽 #b1 张牌。"
+    ]
+  },
+  "${ModID}:TargetDummy": {
+    "NAME": "训练假人",
+    "FLAVOR": "它磨损得相当厉害。",
+    "DESCRIPTIONS": [
+      "你的初始牌多造成 #b2 点伤害并获得 #b2 点 #y格挡 。"
+    ]
+  }
+}

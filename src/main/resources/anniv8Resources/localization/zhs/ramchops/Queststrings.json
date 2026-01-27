@@ -1,0 +1,75 @@
+{
+  "${ModID}:SelloutQuest": {
+    "TITLE": "广告推销",
+    "DESCRIPTION": "拾取时，将 #b1 张 #y广告 加入你的牌组。从牌组中移除 #y广告 以完成任务。\n\n",
+    "AUTHOR": "RamChops Games",
+    "REWARD": "每打出 #b1 张 #y广告 ，获得 #b10 金币。",
+    "TRACKER_TEXT": [
+      "应付广告收入",
+      "移除广告"
+    ]
+  },
+  "${ModID}:CeaselessHungerQuest": {
+    "TITLE": "无尽的饥饿",
+    "DESCRIPTION": "获得 #y恩洛斯的饥饿的脸 。第二幕开始时再获得一个。在第三幕打开宝箱以完成任务。",
+    "AUTHOR": "RamChops Games",
+    "REWARD": "移除所有 #y恩洛斯的饥饿的脸 ，每移除一个获得 #b2 个随机遗物。",
+    "TRACKER_TEXT": [
+      "打开第三幕宝箱"
+    ]
+  },
+  "${ModID}:EvilSentryQuest": {
+    "TITLE": "邪恶哨卫",
+    "DESCRIPTION": "你本幕的下一个精英将是三个哨卫。除了它们的正常行动外，它们还能执行一个特殊行动（造成 #b5 点伤害并给予 #b1 层抽牌减少）。击败它们。",
+    "AUTHOR": "RamChops Games",
+    "TRACKER_TEXT": [
+      "击败邪恶哨卫"
+    ]
+  },
+  "${ModID}:WindowShoppingQuest": {
+    "TITLE": "橱窗购物",
+    "DESCRIPTION": "离开 #b2 家商店且不在其中任何一家花费金币。",
+    "AUTHOR": "RamChops Games",
+    "TRACKER_TEXT": [
+      "离开商店且未花费金币"
+    ],
+    "EXTRA_TEXT": [
+      " NL NL #r警告 ： #r若 #r在 #r此 #r商店 #r花费 #r金钱 #r后 #r拾取 ， #r任务 #r将 #r失败 ！"
+    ]
+  },
+  "${ModID}:ThatsSmoresQuest": {
+    "TITLE": "那是烤棉花糖",
+    "DESCRIPTION": "你现在可以在休息处烤棉花糖。进行 #b2 次。",
+    "AUTHOR": "RamChops Games",
+    "TRACKER_TEXT": [
+      "烤棉花糖次数"
+    ]
+  },
+  "${ModID}:CharityQuest": {
+    "TITLE": "慈善个案",
+    "DESCRIPTION": "你跳过的任何金币奖励都将捐赠给牧师。此任务在你获得任何金币时，或当你获得 #y灵体外质 时结束。",
+    "AUTHOR": "RamChops Games",
+    "REWARD": "牧师感谢你！他将在每捐赠 #b15 金币时授予 #b1 点最大生命值。",
+    "TRACKER_TEXT": [
+      "已捐赠金币",
+      "牧师的感激",
+      "获得金币"
+    ]
+  },
+  "${ModID}:BloomerQuest": {
+    "TITLE": "好吧，花开者",
+    "DESCRIPTION": "拾取时，获得一个 #y任务绑定 的 #y绽放印记 。携带它攀登 #b10 层。",
+    "AUTHOR": "RamChops Games",
+    "TRACKER_TEXT": [
+      "攀登楼层数"
+    ]
+  },
+  "${ModID}:HashtagBlessedQuest": {
+    "TITLE": "#祝福",
+    "DESCRIPTION": "在每场战斗开始时，一个随机的非爪牙敌人将被赋予一个随机增益。击败第二幕首领。",
+    "AUTHOR": "RamChops Games",
+    "TRACKER_TEXT": [
+      "击败第二幕首领"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "${ModID}:KingLlane": {
+    "NAME": "莱恩国王",
+    "DESCRIPTION": " #y虚无 。 NL #y固有 。 NL 抽 !M! 张牌。 NL 将这张牌洗入抽牌堆。"
+  },
+  "${ModID}:RecursiveModule": {
+    "NAME": "递归模块",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 将这张牌洗入抽牌堆。",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      "将这张牌洗入抽牌堆。"
+    ]
+  },
+  "${ModID}:PowerModule": {
+    "NAME": "能量模块",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 本场战斗中这张牌伤害增加4点。",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      "本场战斗中这张牌牌伤害增加4点。"
+    ]
+  },
+  "${ModID}:HaywireModule": {
+    "NAME": "失控模块",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 失去2点生命值。",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      "失去2点生命值。"
+    ]
+  },
+  "${ModID}:PylonModule": {
+    "NAME": "能源塔模块",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 为本场战斗中你手牌中的一张牌进行 #y升级 。",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      "为本场战斗中你手牌中的一张牌进行升级。"
+    ]
+  },
+  "${ModID}:VirusModule": {
+    "NAME": "病毒模块",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予1层 #y虚弱 。",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      "给予1层虚弱。"
+    ]
+  },
+  "${ModID}:TickingModule": {
+    "NAME": "滴答模块",
+    "DESCRIPTION": "本回合每打出5张牌，这张牌在手牌中的耗能便减少1点。 NL 造成 !D! 点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      "本回合每打出5张牌，这张牌在手牌中的耗能便减少1点。",
+      ""
+    ]
+  },
+  "${ModID}:TwinModule": {
+    "NAME": "双子模块",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL stslib:Persist !stslib:persist!",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      "stslib:Persist !stslib:persist!"
+    ]
+  },
+  "${ModID}:PerfectModule": {
+    "NAME": "完美模块",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 造成 !D! 点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      "获得 !B! 点格挡。",
+      ""
+    ]
+  },
+  "${ModID}:ZilliaxDeluxe3000": {
+    "NAME": "奇利亚斯豪华3000型",
+    "DESCRIPTION": "这张牌的效果通过组合两个模块来生成。",
+    "EXTENDED_DESCRIPTION": [
+      "造成 !D! 点伤害。"
+    ]
+  }
+}

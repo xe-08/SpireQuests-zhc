@@ -1,0 +1,9 @@
+{
+  "${ModID}:UpgradeNextPower": {
+    "NAME": "牌术",
+    "DESCRIPTIONS": [
+      "#y升级 你打出的下一张卡牌。",
+      "#y升级 你打出的下 #b%s 张卡牌。"
+    ]
+  }
+}

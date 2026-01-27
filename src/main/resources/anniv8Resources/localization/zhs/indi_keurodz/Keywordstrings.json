@@ -1,0 +1,66 @@
+[
+  {
+    "PROPER_NAME": "减益",
+    "NAMES": [
+      "减益"
+    ],
+    "DESCRIPTION": "当你打出这张牌时，随机获得 #b1 层 #y虚弱 、 #y脆弱 或 #y易伤 。",
+    "COLOR": "ff6563"
+  },
+  {
+    "ID": "${ModID}:Foil",
+    "PROPER_NAME": "箔片",
+    "NAMES": [
+      "箔片"
+    ],
+    "DESCRIPTION": "每场战斗中首次打出这张牌时，获得 #b50 金币。"
+  },
+  {
+    "ID": "${ModID}:Holo",
+    "PROPER_NAME": "全息",
+    "NAMES": [
+      "全息"
+    ],
+    "DESCRIPTION": "当你打出这张牌时，获得 #b10 点临时 #y力量 。"
+  },
+  {
+    "ID": "${ModID}:Polychrome",
+    "PROPER_NAME": "多色",
+    "NAMES": [
+      "多色"
+    ],
+    "DESCRIPTION": "#b50% 几率额外打出一次。"
+  },
+  {
+    "ID": "${ModID}:Negative",
+    "PROPER_NAME": "负片",
+    "NAMES": [
+      "负片"
+    ],
+    "DESCRIPTION": "当你抽到这张牌时，抽一张牌。"
+  },
+  {
+    "ID": "${ModID}:Perishable",
+    "PROPER_NAME": "易逝",
+    "NAMES": [
+      "易逝"
+    ],
+    "DESCRIPTION": "在 #b5 场战斗后从牌组中移除。"
+  },
+  {
+    "ID": "${ModID}:Eternal",
+    "PROPER_NAME": "永恒",
+    "NAMES": [
+      "永恒"
+    ],
+    "DESCRIPTION": "#r无法 从牌组中移除。"
+  },
+  {
+    "ID": "${ModID}:Rental",
+    "PROPER_NAME": "租赁",
+    "NAMES": [
+      "租赁"
+    ],
+    "DESCRIPTION": "每场战斗结束时失去 #b3 #y金币 。可以在商人处免费移除。"
+  }
+]

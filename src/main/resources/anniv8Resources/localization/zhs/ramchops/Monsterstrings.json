@@ -1,0 +1,11 @@
+{
+  "${ModID}:EvilSentry": {
+    "MOVES": [
+      "诡计迷惑"
+    ],
+    "NAME": "邪恶哨卫",
+    "DIALOG": [
+      ""
+    ]
+  }
+}

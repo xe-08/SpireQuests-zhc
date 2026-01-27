@@ -1,0 +1,44 @@
+{
+  "${ModID}:CowardiceQuest": {
+    "TITLE": "懦夫之道",
+    "DESCRIPTION": "躲避精英战斗3次。（当遇到精英战斗时，选择另一条路径。）",
+    "AUTHOR": "Dayvig",
+    "TRACKER_TEXT": [
+      "已躲避的精英"
+    ]
+  },
+  "${ModID}:AddictQuest": {
+    "TITLE": "我超！冰！",
+    "DESCRIPTION": "连续5场战斗中都打出 #yJ.A.X. 。你的下一个 #y? 房间将包含一个特殊的增益研究者事件，该事件会给予 #yJ.A.X. （无其他选项）。",
+    "AUTHOR": "Dayvig",
+    "TRACKER_TEXT": [
+      "在战斗中打出J.A.X."
+    ]
+  },
+  "${ModID}:NeatQuest": {
+    "TITLE": "有序牌组",
+    "DESCRIPTION": "拥有一个恰好包含 #b10 张攻击牌、 #b10 张技能牌和 #b5 张能力牌的牌组。",
+    "AUTHOR": "Dayvig",
+    "TRACKER_TEXT": [
+      "攻击牌",
+      "技能牌",
+      "能力牌"
+    ]
+  },
+  "${ModID}:ZeroCost": {
+    "TITLE": "谁需要能量？",
+    "DESCRIPTION": "向你的牌组中添加 #b3 张耗能为 #b0 的卡牌。",
+    "AUTHOR": "Dayvig",
+    "TRACKER_TEXT": [
+      "添加到牌组耗能为0的卡牌"
+    ]
+  },
+  "${ModID}:BigCost": {
+    "TITLE": "重炮手",
+    "DESCRIPTION": "向你的牌组中添加 #b3 张耗能为 #b2 或更高的卡牌。",
+    "AUTHOR": "Dayvig",
+    "TRACKER_TEXT": [
+      "添加到牌组耗能为2以上的卡牌"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "${ModID}:AmbitiousStrikeQuest": {
+    "TITLE": "雄心打击",
+    "DESCRIPTION": "用一张初始的 #y打击 牌来结束一场精英战斗。",
+    "AUTHOR": "Darkglade",
+    "REWARD": "升级一张随机的 #y攻击 牌。",
+    "TRACKER_TEXT": [
+      "用一张初始的打击结束精英战斗"
+    ]
+  },
+  "${ModID}:DoomsdayCalendarQuest": {
+    "TITLE": "末日时钟",
+    "DESCRIPTION": "拾取时，获得 #y临终时刻 。 NL 使用 #y临终时刻 #y斩杀 敌人 #b12 次。",
+    "AUTHOR": "Darkglade",
+    "TRACKER_TEXT": [
+      "斩杀次数"
+    ]
+  }
+}
