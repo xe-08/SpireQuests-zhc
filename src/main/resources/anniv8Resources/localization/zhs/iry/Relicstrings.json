@@ -1,9 +1,0 @@
-{
-  "${ModID}:BrokenHeartPendant": {
-    "NAME": "破碎的心",
-    "FLAVOR": "至死不渝。",
-    "DESCRIPTIONS": [
-      "当场上恰好有 #b2 名敌人时，你获得 #b%s 点额外 #y力量 。"
-    ]
-  }
-}
