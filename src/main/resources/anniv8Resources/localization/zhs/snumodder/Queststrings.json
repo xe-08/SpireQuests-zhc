@@ -5,8 +5,8 @@
     "AUTHOR": "snumodder",
     "REWARD": "升级所有初始牌。",
     "TRACKER_TEXT": [
-      "偶数/X耗能牌",
-      "无奇数耗能牌"
+      "牌组中的偶数/X耗能牌",
+      "牌组中的奇数耗能牌"
     ]
   },
   "${ModID}:GaronaHalforcenQuest": {
