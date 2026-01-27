@@ -24,7 +24,7 @@
     ]
   },
   "${ModID}:LessonOfTheAsceticQuest": {
-    "TITLE": "苦行课程",
+    "TITLE": "苦修课程",
     "DESCRIPTION": "获得一张 #y任务绑定 的 #y笨拙 #y渎神 。 NL 打出 #y笨拙 #y渎神 #b 次。",
     "AUTHOR": "iry",
     "TRACKER_TEXT": [
