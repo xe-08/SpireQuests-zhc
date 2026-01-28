@@ -1,6 +1,6 @@
 {
   "${ModID}:CowardiceQuest": {
-    "TITLE": "懦夫之道",
+    "TITLE": "逃课",
     "DESCRIPTION": "躲避精英战斗3次。（当遇到精英战斗时，选择另一条路径。）",
     "AUTHOR": "Dayvig",
     "TRACKER_TEXT": [
