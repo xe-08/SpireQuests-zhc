@@ -1,7 +1,7 @@
 {
   "${ModID}:SelloutAdCard": {
     "NAME": "广告",
-    "DESCRIPTION": "stslib:消耗 !stslib:ex!. 将这张牌洗入你的抽牌堆。",
+    "DESCRIPTION": "stslib:消耗性 !stslib:ex!。 将这张牌洗入你的抽牌堆。",
     "EXTENDED_DESCRIPTION": [
       "（此处可刊登您的广告，详情请联系商人。）",
       "（广告位招租，详情请联系商人。）",
