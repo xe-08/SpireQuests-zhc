@@ -1,10 +1,10 @@
 {
   "${ModID}:ImpendingDay": {
     "NAME": "临终时刻",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 若 #y斩杀 ，回复 !M! 点生命并 #y消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 若斩杀，回复 !M! 点生命并消耗。"
   },
   "${ModID}:StarOfExtinction": {
     "NAME": "灭绝之星",
-    "DESCRIPTION": " #y消耗 一张牌并将其从牌组中 #y移除 。 NL 对所有敌人造成 !D! 点伤害。 NL #y消耗 。"
+    "DESCRIPTION": "消耗一张牌并将其从牌组中移除。 NL 对所有敌人造成 !D! 点伤害。 NL 消耗。"
   }
 }
