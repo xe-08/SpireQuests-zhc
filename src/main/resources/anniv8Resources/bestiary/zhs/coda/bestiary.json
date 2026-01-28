@@ -1,0 +1,250 @@
+{
+    "monsters": [
+        {
+            "name": "戏法师",
+            "id": "${ModID}:CharadeMonster",
+            "ai": [
+                {
+                    "min_asc": 0,
+                    "desc": "觉醒后，会在四种颜色模式间循环： #w红色 （防御）、 #w绿色 （进攻）、 #w蓝色 （进攻）和 #w紫色 （防御）。 NL 该序列按固定顺序重复。顺序在战斗开始时随机选择，但始终在进攻和防御颜色之间交替，之后不会改变。",
+                    "notes": "固有 #b格挡 #b100 。 NL 在第一回合后或失去生命值时觉醒。 NL #u精神 #u护盾增益 在打出牌时给予 #u下 #u回合 #u格挡 。",
+                    "hp": "(300 - 325 生命值)",
+                    "moves": [
+                        {
+                            "name": "红色（防御）",
+                            "effects": [
+                                {
+                                    "name": "灼伤 3",
+                                    "color": "DEBUFF"
+                                },
+                                {
+                                    "name": "格挡 30",
+                                    "color": "BLOCK"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "绿色（进攻）",
+                            "effects": [
+                                {
+                                    "name": "4x7",
+                                    "color": "DAMAGE"
+                                },
+                                {
+                                    "name": "虚弱 2",
+                                    "color": "DEBUFF"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "蓝色（进攻）",
+                            "effects": [
+                                {
+                                    "name": "40",
+                                    "color": "DAMAGE"
+                                },
+                                {
+                                    "name": "人工制品 1",
+                                    "color": "BUFF"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "紫色（防御）",
+                            "effects": [
+                                {
+                                    "name": "精神护盾 5",
+                                    "color": "BUFF"
+                                },
+                                {
+                                    "name": "力量 +2",
+                                    "color": "BUFF"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "min_asc": 3,
+                    "desc": "觉醒后，会在四种颜色模式间循环： #w红色 （防御）、 #w绿色 （进攻）、 #w蓝色 （进攻）和 #w紫色 （防御）。 NL 该序列按固定顺序重复。顺序在战斗开始时随机选择，但始终在进攻和防御颜色之间交替，之后不会改变。",
+                    "notes": "固有 #b格挡 #b100 。 NL 在第一回合后或失去生命值时觉醒。 NL #u精神 #u护盾增益 在打出牌时给予 #u下 #u回合 #u格挡 。",
+                    "hp": "(300 - 325 生命值)",
+                    "moves": [
+                        {
+                            "name": "红色（防御）",
+                            "effects": [
+                                {
+                                    "name": "灼伤 4",
+                                    "color": "DEBUFF"
+                                },
+                                {
+                                    "name": "格挡 30",
+                                    "color": "BLOCK"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "绿色（进攻）",
+                            "effects": [
+                                {
+                                    "name": "4x8",
+                                    "color": "DAMAGE"
+                                },
+                                {
+                                    "name": "虚弱 2",
+                                    "color": "DEBUFF"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "蓝色（进攻）",
+                            "effects": [
+                                {
+                                    "name": "45",
+                                    "color": "DAMAGE"
+                                },
+                                {
+                                    "name": "人工制品 1",
+                                    "color": "BUFF"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "紫色（防御）",
+                            "effects": [
+                                {
+                                    "name": "精神护盾 5",
+                                    "color": "BUFF"
+                                },
+                                {
+                                    "name": "力量 +2",
+                                    "color": "BUFF"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "min_asc": 8,
+                    "desc": "觉醒后，会在四种颜色模式间循环： #w红色 （防御）、 #w绿色 （进攻）、 #w蓝色 （进攻）和 #w紫色 （防御）。 NL 该序列按固定顺序重复。顺序在战斗开始时随机选择，但始终在进攻和防御颜色之间交替，之后不会改变。",
+                    "notes": "固有 #b格挡 #b100 。 NL 在第一回合后或失去生命值时觉醒。 NL #u精神 #u护盾增益 在打出牌时给予 #u下 #u回合 #u格挡 。",
+                    "hp": "(330 - 357 生命值)",
+                    "moves": [
+                        {
+                            "name": "红色（防御）",
+                            "effects": [
+                                {
+                                    "name": "灼伤 4",
+                                    "color": "DEBUFF"
+                                },
+                                {
+                                    "name": "格挡 35",
+                                    "color": "BLOCK"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "绿色（进攻）",
+                            "effects": [
+                                {
+                                    "name": "4x8",
+                                    "color": "DAMAGE"
+                                },
+                                {
+                                    "name": "虚弱 2",
+                                    "color": "DEBUFF"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "蓝色（进攻）",
+                            "effects": [
+                                {
+                                    "name": "45",
+                                    "color": "DAMAGE"
+                                },
+                                {
+                                    "name": "人工制品 1",
+                                    "color": "BUFF"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "紫色（防御）",
+                            "effects": [
+                                {
+                                    "name": "精神护盾 8",
+                                    "color": "BUFF"
+                                },
+                                {
+                                    "name": "力量 +2",
+                                    "color": "BUFF"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "min_asc": 18,
+                    "desc": "觉醒后，会在四种颜色模式间循环： #w红色 （防御）、 #w绿色 （进攻）、 #w蓝色 （进攻）和 #w紫色 （防御）。 NL 该序列按固定顺序重复。顺序在战斗开始时随机选择，但始终在进攻和防御颜色之间交替，之后不会改变。",
+                    "notes": "固有 #b格挡 #b100 。 NL 在第一回合后或失去生命值时觉醒。 NL #u精神 #u护盾增益 在打出牌时给予 #u下 #u回合 #u格挡 。",
+                    "hp": "(330 - 357 生命值)",
+                    "moves": [
+                        {
+                            "name": "红色（防御）",
+                            "effects": [
+                                {
+                                    "name": "灼伤+ 4",
+                                    "color": "DEBUFF"
+                                },
+                                {
+                                    "name": "格挡 35",
+                                    "color": "BLOCK"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "绿色（进攻）",
+                            "effects": [
+                                {
+                                    "name": "5x8",
+                                    "color": "DAMAGE"
+                                },
+                                {
+                                    "name": "虚弱 3",
+                                    "color": "DEBUFF"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "蓝色（进攻）",
+                            "effects": [
+                                {
+                                    "name": "45",
+                                    "color": "DAMAGE"
+                                },
+                                {
+                                    "name": "人工制品 2",
+                                    "color": "BUFF"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "紫色（防御）",
+                            "effects": [
+                                {
+                                    "name": "精神护盾 8",
+                                    "color": "BUFF"
+                                },
+                                {
+                                    "name": "力量 +3",
+                                    "color": "BUFF"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

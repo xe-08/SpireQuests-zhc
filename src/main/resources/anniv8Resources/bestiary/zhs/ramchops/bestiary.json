@@ -1,0 +1,166 @@
+{
+  "monsters": [
+    {
+      "name": "邪恶哨卫",
+      "id": "${ModID}:EvilSentry",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "从左到右，哨卫以 #w闪电 / #w光束 / #w迷惑 开始。然后，它们按以下顺序循环意图： #w闪电 -> #w光束 -> #w迷惑 -> #w闪电 。",
+          "hp": "(38 - 42 生命值)",
+          "notes": "固有 #u人工制品 #u1 ",
+          "moves": [
+            {
+              "name": "光束",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "闪电",
+              "effects": [
+                {
+                  "name": "晕眩 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "迷惑",
+              "effects": [
+                {
+                  "name": "5",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "抽牌减少 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "从左到右，哨卫以 #w闪电 / #w光束 / #w迷惑 开始。然后，它们按以下顺序循环意图： #w闪电 -> #w光束 -> #w迷惑 -> #w闪电 。",
+          "hp": "(38 - 42 生命值)",
+          "notes": "固有 #u人工制品 #u1 ",
+          "moves": [
+            {
+              "name": "光束",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "闪电",
+              "effects": [
+                {
+                  "name": "晕眩 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "迷惑",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "抽牌减少 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "从左到右，哨卫以 #w闪电 / #w光束 / #w迷惑 开始。然后，它们按以下顺序循环意图： #w闪电 -> #w光束 -> #w迷惑 -> #w闪电 。",
+          "hp": "(39 - 45 生命值)",
+          "notes": "固有 #u人工制品 #u1 ",
+          "moves": [
+            {
+              "name": "光束",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "闪电",
+              "effects": [
+                {
+                  "name": "晕眩 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "迷惑",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "抽牌减少 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "从左到右，哨卫以 #w闪电 / #w光束 / #w迷惑 开始。然后，它们按以下顺序循环意图： #w闪电 -> #w光束 -> #w迷惑 -> #w闪电 。",
+          "hp": "(39 - 45 生命值)",
+          "notes": "固有 #u人工制品 #u1 ",
+          "moves": [
+            {
+              "name": "光束",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "闪电",
+              "effects": [
+                {
+                  "name": "晕眩 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "迷惑",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "抽牌减少 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

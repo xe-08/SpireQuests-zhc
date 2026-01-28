@@ -1,0 +1,448 @@
+{
+	"monsters": [
+		{
+			"name": "故障机器人",
+			"id": "${ModID}:DefectEliteMonster",
+			"ai": [
+				{
+					"min_asc": 0,
+					"desc": "开始时使用 #w核心 #w涌动 / #w偏折 #w认知 / #w彩虹 -> #w电容 / #w电动力学 / #w碎片整理 。之后，如果在过去两回合中没有使用过生成两个或更多随从的技能，则根据存活的随从数量有几率使用 #w电击 / #w冷静头脑 / #w黑暗（0个：100%，1个：50%，2个：25%，3个以上：0%）。如果存活5个以上随从，使用 #w雷击 / #w跳跃 / #w力场 。否则，相等几率使用 #w雷击 / #w跳跃 / #w力场 （不能连续使用两次）或 #w球状 #w闪电 / #w编译 #w驱动 / #w碎片整理（不能连续使用三次）。",
+					"notes": "#w雷击 对战斗中生成的每个闪电球造成一次伤害。",
+					"hp": "(250 生命值)",
+					"moves": [
+						{
+							"name": "核心涌动",
+							"effects": [
+								{
+									"name": "11",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "集中 4",
+									"color": "BUFF"
+								},
+								{
+									"name": "生成 1 闪电球/冰霜球/黑暗球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "电容",
+							"effects": [
+								{
+									"name": "集中 1",
+									"color": "BUFF"
+								},
+								{
+									"name": "生成 2 闪电球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "雷击",
+							"effects": [
+								{
+									"name": "7xN",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "21",
+									"color": "BLOCK"
+								}
+							]
+						},
+						{
+							"name": "球状闪电",
+							"effects": [
+								{
+									"name": "7x2",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "生成 1 闪电球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "电击",
+							"effects": [
+								{
+									"name": "生成 1 闪电球/冰霜球/黑暗球",
+									"color": "SPECIAL"
+								}
+							]
+						}
+					]
+				},
+				{
+					"min_asc": 3,
+					"desc": "开始时使用 #w核心 #w涌动 / #w偏折 #w认知 / #w彩虹 -> #w电容 / #w电动力学 / #w碎片整理 。之后，如果在过去两回合中没有使用过生成两个或更多随从的技能，则根据存活的随从数量有几率使用 #w电击 / #w冷静头脑 / #w黑暗（0个：100%，1个：50%，2个：25%，3个以上：0%）。如果存活5个以上随从，使用 #w雷击 / #w跳跃 / #w力场 。否则，相等几率使用 #w雷击 / #w跳跃 / #w力场 （不能连续使用两次）或 #w球状 #w闪电 / #w编译 #w驱动 / #w碎片整理（不能连续使用三次）。",
+					"notes": "#w雷击 对战斗中生成的每个闪电球造成一次伤害。",
+					"hp": "(250 生命值)",
+					"moves": [
+						{
+							"name": "核心涌动",
+							"effects": [
+								{
+									"name": "12",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "集中 4",
+									"color": "BUFF"
+								},
+								{
+									"name": "生成 1 闪电球/冰霜球/黑暗球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "电容",
+							"effects": [
+								{
+									"name": "集中 1",
+									"color": "BUFF"
+								},
+								{
+									"name": "生成 2 闪电球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "雷击",
+							"effects": [
+								{
+									"name": "8xN",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "21",
+									"color": "BLOCK"
+								}
+							]
+						},
+						{
+							"name": "球状闪电",
+							"effects": [
+								{
+									"name": "8x2",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "生成 1 闪电球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "电击",
+							"effects": [
+								{
+									"name": "生成 1 闪电球/冰霜球/黑暗球",
+									"color": "SPECIAL"
+								}
+							]
+						}
+					]
+				},
+				{
+					"min_asc": 8,
+					"desc": "开始时使用 #w核心 #w涌动 / #w偏折 #w认知 / #w彩虹 -> #w电容 / #w电动力学 / #w碎片整理 。之后，如果在过去两回合中没有使用过生成两个或更多随从的技能，则根据存活的随从数量有几率使用 #w电击 / #w冷静头脑 / #w黑暗（0个：100%，1个：50%，2个：25%，3个以上：0%）。如果存活5个以上随从，使用 #w雷击 / #w跳跃 / #w力场 。否则，相等几率使用 #w雷击 / #w跳跃 / #w力场 （不能连续使用两次）或 #w球状 #w闪电 / #w编译 #w驱动 / #w碎片整理（不能连续使用三次）。",
+					"notes": "#w雷击 对战斗中生成的每个闪电球造成一次伤害。",
+					"hp": "(275 生命值)",
+					"moves": [
+						{
+							"name": "核心涌动",
+							"effects": [
+								{
+									"name": "12",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "集中 4",
+									"color": "BUFF"
+								},
+								{
+									"name": "生成 1 闪电球/冰霜球/黑暗球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "电容",
+							"effects": [
+								{
+									"name": "集中 1",
+									"color": "BUFF"
+								},
+								{
+									"name": "生成 2 闪电球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "雷击",
+							"effects": [
+								{
+									"name": "8xN",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "28",
+									"color": "BLOCK"
+								}
+							]
+						},
+						{
+							"name": "球状闪电",
+							"effects": [
+								{
+									"name": "8x2",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "生成 1 闪电球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "电击",
+							"effects": [
+								{
+									"name": "生成 1 闪电球/冰霜球/黑暗球",
+									"color": "SPECIAL"
+								}
+							]
+						}
+					]
+				},
+				{
+					"min_asc": 18,
+					"desc": "开始时使用 #w核心 #w涌动 / #w偏折 #w认知 / #w彩虹 -> #w电容 / #w电动力学 / #w碎片整理 。之后，如果在过去两回合中没有使用过生成两个或更多随从的技能，则根据存活的随从数量有几率使用 #w电击 / #w冷静头脑 / #w黑暗（0个：100%，1个：50%，2个：25%，3个以上：0%）。如果存活5个以上随从，使用 #w雷击 / #w跳跃 / #w力场 。否则，相等几率使用 #w雷击 / #w跳跃 / #w力场 （不能连续使用两次）或 #w球状 #w闪电 / #w编译 #w驱动 / #w碎片整理（不能连续使用三次）。",
+					"notes": "#w雷击 对战斗中生成的每个闪电球造成一次伤害。",
+					"hp": "(275 生命值)",
+					"moves": [
+						{
+							"name": "核心涌动",
+							"effects": [
+								{
+									"name": "12",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "集中 5",
+									"color": "BUFF"
+								},
+								{
+									"name": "生成 1 闪电球/冰霜球/黑暗球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "电容",
+							"effects": [
+								{
+									"name": "集中 2",
+									"color": "BUFF"
+								},
+								{
+									"name": "生成 2 闪电球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "雷击",
+							"effects": [
+								{
+									"name": "8xN",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "28",
+									"color": "BLOCK"
+								}
+							]
+						},
+						{
+							"name": "球状闪电",
+							"effects": [
+								{
+									"name": "8x2",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "生成 1 闪电球",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "电击",
+							"effects": [
+								{
+									"name": "生成 1 闪电球/冰霜球/黑暗球",
+									"color": "SPECIAL"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "闪电球",
+			"id": "${ModID}:LightningOrbMinion",
+			"ai": [
+				{
+					"min_asc": 0,
+					"desc": "重复使用 #w闪电 。",
+					"notes": "伤害受故障机器人的 #u集中 影响而提高。",
+					"hp": "(23 - 26 生命值)",
+					"moves": [
+						{
+							"name": "闪电",
+							"effects": [
+								{
+									"name": "3",
+									"color": "DAMAGE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"min_asc": 8,
+					"desc": "重复使用 #w闪电 。",
+					"notes": "伤害受故障机器人的 #u集中 影响而提高。",
+					"hp": "(25 - 28 生命值)",
+					"moves": [
+						{
+							"name": "闪电",
+							"effects": [
+								{
+									"name": "3",
+									"color": "DAMAGE"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "冰霜球",
+			"id": "${ModID}:FrostOrbMinion",
+			"ai": [
+				{
+					"min_asc": 0,
+					"desc": "重复使用 #w冰霜。",
+					"notes": "格挡受故障机器人的 #u集中 影响而提高。",
+					"hp": "(23 - 26 生命值)",
+					"moves": [
+						{
+							"name": "冰霜",
+							"effects": [
+								{
+									"name": "全体格挡 2",
+									"color": "BLOCK"
+								}
+							]
+						}
+					]
+				},
+				{
+					"min_asc": 8,
+					"desc": "重复使用 #w冰霜。",
+					"notes": "格挡受故障机器人的 #u集中 影响而提高。",
+					"hp": "(25 - 28 生命值)",
+					"moves": [
+						{
+							"name": "冰霜",
+							"effects": [
+								{
+									"name": "全体格挡 2",
+									"color": "BLOCK"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "黑暗球",
+			"id": "${ModID}:DarkOrbMinion",
+			"ai": [
+				{
+					"min_asc": 0,
+					"desc": "开始时使用 #w聚集 两次，然后 #w释放 。",
+					"notes": "#w聚集 的储存伤害量受故障机器人的 #u集中 影响而提高。",
+					"hp": "(23 - 26 生命值)",
+					"moves": [
+						{
+							"name": "聚集",
+							"effects": [
+								{
+									"name": "储存伤害 6",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "释放",
+							"effects": [
+								{
+									"name": "造成储存伤害",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "死亡",
+									"color": "SPECIAL"
+								}
+							]
+						}
+					]
+				},
+				{
+					"min_asc": 8,
+					"desc": "开始时使用 #w聚集 两次，然后 #w释放 。",
+					"notes": "#w聚集 的储存伤害量受故障机器人的 #u集中 影响而提高。",
+					"hp": "(25 - 28 生命值)",
+					"moves": [
+						{
+							"name": "聚集",
+							"effects": [
+								{
+									"name": "储存伤害 6",
+									"color": "SPECIAL"
+								}
+							]
+						},
+						{
+							"name": "释放",
+							"effects": [
+								{
+									"name": "造成储存伤害",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "死亡",
+									"color": "SPECIAL"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

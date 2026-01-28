@@ -1,0 +1,598 @@
+{
+  "monsters": [
+    {
+      "name": "递归模块",
+      "id": "${ModID}:RecursiveModuleMonster",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "以 #w攻击 开始，然后在两个动作间交替。",
+          "hp": "(每幕10生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "每幕5点",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "重复",
+              "effects": [
+                {
+                  "name": "晕眩 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "以 #w攻击 开始，然后在两个动作间交替。",
+          "hp": "(每幕10生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "6 (第一幕) / 11 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "重复",
+              "effects": [
+                {
+                  "name": "晕眩 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "以 #w攻击 开始，然后在两个动作间交替。",
+          "hp": "(每幕11生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "6 (第一幕) / 11 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "重复",
+              "effects": [
+                {
+                  "name": "晕眩 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "力量模块",
+      "id": "${ModID}:PowerModuleMonster",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕10生命值)",
+          "notes": "固有 #u力量 #u提升 #u1 每幕",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "每幕3点",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕10生命值)",
+          "notes": "固有 #u力量 #u提升 #u1 每幕",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "3 (第一幕) / 7 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕11生命值)",
+          "notes": "固有 #u力量 #u提升 #u1 每幕",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "3 (第一幕) / 7 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "双生模块",
+      "id": "${ModID}:TwinModuleMonster",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "双生模块（从左上到右下）以 #w攻击 / #w休息 开始。之后，它们总是在两个动作间交替。",
+          "hp": "(每幕6生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "每幕5点",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "休息",
+              "effects": [
+                {
+                  "name": "跳过回合",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "双生模块（从左上到右下）以 #w攻击 / #w休息 开始。之后，它们总是在两个动作间交替。",
+          "hp": "(每幕6生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "6 (第一幕) / 11 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "休息",
+              "effects": [
+                {
+                  "name": "跳过回合",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "双生模块（从左上到右下）以 #w攻击 / #w休息 开始。之后，它们总是在两个动作间交替。",
+          "hp": "(7 生命值 第一幕 / 13 生命值 第二幕)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "6 (第一幕) / 11 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "休息",
+              "effects": [
+                {
+                  "name": "跳过回合",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "完美模块",
+      "id": "${ModID}:PerfectModuleMonster",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕10生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "生命偷取 每幕3点",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕10生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "生命偷取 3 (第一幕) / 生命偷取 7 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕11生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "生命偷取 3 (第一幕) / 生命偷取 7 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "滴答模块",
+      "id": "${ModID}:TickingModuleMonster",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "每回合 #w滴答。如果你在一回合内打出3张牌，则 #w攻击 。",
+          "hp": "(每幕10生命值)",
+          "moves": [
+            {
+              "name": "滴答",
+              "effects": [
+                {
+                  "name": "力量 +2 每幕",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "每幕3点",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "每回合 #w滴答。如果你在一回合内打出3张牌，则 #w攻击 。",
+          "hp": "(每幕10生命值)",
+          "moves": [
+            {
+              "name": "滴答",
+              "effects": [
+                {
+                  "name": "力量 +2 每幕",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "3 (第一幕) / 7 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "每回合 #w滴答。如果你在一回合内打出3张牌，则 #w攻击 。",
+          "hp": "(每幕11生命值)",
+          "moves": [
+            {
+              "name": "滴答",
+              "effects": [
+                {
+                  "name": "力量 +2 每幕",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "3 (第一幕) / 7 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "每回合 #w滴答。如果你在一回合内打出3张牌，则 #w攻击 。",
+          "hp": "(每幕11生命值)",
+          "moves": [
+            {
+              "name": "滴答",
+              "effects": [
+                {
+                  "name": "力量 +3 每幕",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "3 (第一幕) / 7 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "病毒模块",
+      "id": "${ModID}:VirusModuleMonster",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "以 #w攻击 开始，然后在两个动作间交替。",
+          "notes": "固有 #u病毒。",
+          "hp": "(每幕10生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "每幕5点",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "休息",
+              "effects": [
+                {
+                  "name": "跳过回合",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "以 #w攻击 开始，然后在两个动作间交替。",
+          "notes": "固有 #u病毒。",
+          "hp": "(每幕10生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "6 (第一幕) / 11 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "休息",
+              "effects": [
+                {
+                  "name": "跳过回合",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "以 #w攻击 开始，然后在两个动作间交替。",
+          "notes": "固有 #u病毒。",
+          "hp": "(每幕11生命值)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "6 (第一幕) / 11 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "休息",
+              "effects": [
+                {
+                  "name": "跳过回合",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "失控模块",
+      "id": "${ModID}:HaywireModuleMonster",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕14生命值)",
+          "notes": "固有 #s失控 #s5 (第一幕) #s失控 #s8 (第二幕)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "每幕7点",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕14生命值)",
+          "notes": "固有 #s失控 #s5 (第一幕) #s失控 #s8 (第二幕)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "8 (第一幕) / 15 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(15 生命值 第一幕 / 31 生命值 第二幕)",
+          "notes": "固有 #s失控 #s5 (第一幕) #s失控 #s8 (第二幕)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "8 (第一幕) / 15 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(15 生命值 第一幕 / 31 生命值 第二幕)",
+          "notes": "固有 #s失控 #s4 (第一幕) #s失控 #s7 (第二幕)",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "8 (第一幕) / 15 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "塔楼模块",
+      "id": "${ModID}:PylonModuleMonster",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕10生命值)",
+          "notes": "固有 团队 #u力量 #u1 ",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "每幕5点",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕10生命值)",
+          "notes": "固有 团队 #u力量 #u1 ",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "6 (第一幕) / 11 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "每回合 #w攻击 。",
+          "hp": "(每幕11生命值)",
+          "notes": "固有 团队 #u力量 #u1 ",
+          "moves": [
+            {
+              "name": "攻击",
+              "effects": [
+                {
+                  "name": "6 (第一幕) / 11 (第二幕)",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

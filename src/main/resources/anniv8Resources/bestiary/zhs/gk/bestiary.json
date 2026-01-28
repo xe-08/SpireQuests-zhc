@@ -1,0 +1,218 @@
+{
+	"monsters": [
+		{
+			"name": "铁甲战士",
+			"id": "${ModID}:ICEliteMonster",
+			"ai": [
+				{
+					"min_asc": 0,
+					"desc": "开始时使用 #w恶魔 #w形态 ，然后循环 #w钢铁 #w波浪 -> #w重击 -> #w双重 #w打击 。",
+					"notes": "固有 #u缓冲 #b1 。",
+					"hp": "(80 - 87 生命值)",
+					"moves": [
+						{
+							"name": "恶魔形态",
+							"effects": [
+								{
+									"name": "恶魔形态 2",
+									"color": "BUFF"
+								}
+							]
+						},
+						{
+							"name": "铁斩波",
+							"effects": [
+								{
+									"name": "5",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "5",
+									"color": "BLOCK"
+								}
+							]
+						},
+						{
+							"name": "重击",
+							"effects": [
+								{
+									"name": "8",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "易伤 2",
+									"color": "DEBUFF"
+								}
+							]
+						},
+						{
+							"name": "双重打击",
+							"effects": [
+								{
+									"name": "5x2",
+									"color": "DAMAGE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"min_asc": 3,
+					"desc": "开始时使用 #w恶魔 #w形态 ，然后循环 #w钢铁 #w波浪 -> #w重击 -> #w双重 #w打击 。",
+					"notes": "固有 #u缓冲 #b1 。",
+					"hp": "(80 - 87 生命值)",
+					"moves": [
+						{
+							"name": "恶魔形态",
+							"effects": [
+								{
+									"name": "恶魔形态 2",
+									"color": "BUFF"
+								}
+							]
+						},
+						{
+							"name": "铁斩波",
+							"effects": [
+								{
+									"name": "6",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "6",
+									"color": "BLOCK"
+								}
+							]
+						},
+						{
+							"name": "重击",
+							"effects": [
+								{
+									"name": "9",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "易伤 2",
+									"color": "DEBUFF"
+								}
+							]
+						},
+						{
+							"name": "双重打击",
+							"effects": [
+								{
+									"name": "6x2",
+									"color": "DAMAGE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"min_asc": 8,
+					"desc": "开始时使用 #w恶魔 #w形态 ，然后循环 #w钢铁 #w波浪 -> #w重击 -> #w双重 #w打击 。",
+					"notes": "固有 #u缓冲 #b1 。",
+					"hp": "(88 - 95 生命值)",
+					"moves": [
+						{
+							"name": "恶魔形态",
+							"effects": [
+								{
+									"name": "恶魔形态 2",
+									"color": "BUFF"
+								}
+							]
+						},
+						{
+							"name": "铁斩波",
+							"effects": [
+								{
+									"name": "6",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "6",
+									"color": "BLOCK"
+								}
+							]
+						},
+						{
+							"name": "重击",
+							"effects": [
+								{
+									"name": "9",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "易伤 2",
+									"color": "DEBUFF"
+								}
+							]
+						},
+						{
+							"name": "双重打击",
+							"effects": [
+								{
+									"name": "6x2",
+									"color": "DAMAGE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"min_asc": 18,
+					"desc": "开始时使用 #w恶魔 #w形态 ，然后循环 #w钢铁 #w波浪 -> #w重击 -> #w双重 #w打击 。",
+					"notes": "固有 #u缓冲 #b1 。",
+					"hp": "(88 - 95 生命值)",
+					"moves": [
+						{
+							"name": "恶魔形态",
+							"effects": [
+								{
+									"name": "恶魔形态 3",
+									"color": "BUFF"
+								}
+							]
+						},
+						{
+							"name": "铁斩波",
+							"effects": [
+								{
+									"name": "6",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "6",
+									"color": "BLOCK"
+								}
+							]
+						},
+						{
+							"name": "重击",
+							"effects": [
+								{
+									"name": "9",
+									"color": "DAMAGE"
+								},
+								{
+									"name": "易伤 2",
+									"color": "DEBUFF"
+								}
+							]
+						},
+						{
+							"name": "双重打击",
+							"effects": [
+								{
+									"name": "6x2",
+									"color": "DAMAGE"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

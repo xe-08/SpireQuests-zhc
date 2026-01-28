@@ -1,0 +1,198 @@
+{
+  "monsters": [
+    {
+      "name": "观察者",
+      "id": "${ModID}:WatcherEliteMonster",
+      "ai": [
+        {
+          "min_asc": 0,
+          "desc": "循环 #w重殴 -> #w快速 #w打击 -> #w挥手 / #w守护 。 NL 当进入 #s神格 状态时，循环从 #w重殴 重新开始。",
+          "notes": "固有 #u虔诚 #b2 ，每回合获得 #u真言。当获得 #b10 层 #u真言 时，在本回合进入 #s神格 状态，攻击造成 #r三倍 #r伤害 。 NL #w重殴 获得等同于造成 #r未格挡 #r伤害 数值的 #b格挡 。",
+          "hp": "(144 - 154 生命值)",
+          "moves": [
+            {
+              "name": "重殴",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "?",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "快速打击",
+              "effects": [
+                {
+                  "name": "5x6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "力量 2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "挥手/守护",
+              "effects": [
+                {
+                  "name": "虚弱 1",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "12",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "循环 #w重殴 -> #w快速 #w打击 -> #w挥手 / #w守护 。 NL 当进入 #s神格 状态时，循环从 #w重殴 重新开始。",
+          "notes": "固有 #u虔诚 #b2 ，每回合获得 #u真言 。当获得 #b10 层 #u真言 时，在本回合进入 #s神格 状态，攻击造成 #r三倍 #r伤害 。 NL #w重殴 获得等同于造成 #r未格挡 #r伤害 数值的 #b格挡 。",
+          "hp": "(144 - 154 生命值)",
+          "moves": [
+            {
+              "name": "重殴",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "?",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "快速打击",
+              "effects": [
+                {
+                  "name": "6x6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "力量 2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "挥手/守护",
+              "effects": [
+                {
+                  "name": "虚弱 1",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "12",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "循环 #w重殴 -> #w快速 #w打击 -> #w挥手 / #w守护 。 NL 当进入 #s神格 状态时，循环从 #w重殴 重新开始。",
+          "notes": "固有 #u虔诚 #b2 ，每回合获得 #u真言 。当获得 #b10 层 #u真言 时，在本回合进入 #s神格 状态，攻击造成 #r三倍 #r伤害 。 NL #w重殴 获得等同于造成 #r未格挡 #r伤害 数值的 #b格挡 。",
+          "hp": "(158 - 169 生命值)",
+          "moves": [
+            {
+              "name": "重殴",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "?",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "快速打击",
+              "effects": [
+                {
+                  "name": "6x6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "力量 2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "挥手/守护",
+              "effects": [
+                {
+                  "name": "虚弱 1",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "13",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "循环 #w重殴 -> #w快速 #w打击 -> #w挥手 / #w守护 。 NL 当进入 #s神格 状态时，循环从 #w重殴 重新开始。",
+          "notes": "固有 #u虔诚 #b3 ，每回合获得 #u真言 。当获得 #b10 层 #u真言 时，在本回合进入 #s神格 状态，攻击造成 #r三倍 #r伤害 。 NL #w重殴 获得等同于造成 #r未格挡 #r伤害 数值的 #b格挡 。",
+          "hp": "(158 - 169 生命值)",
+          "moves": [
+            {
+              "name": "重殴",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "?",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "快速打击",
+              "effects": [
+                {
+                  "name": "6x6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "力量 2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "挥手/守护",
+              "effects": [
+                {
+                  "name": "虚弱 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "13",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
