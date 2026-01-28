@@ -54,18 +54,18 @@
   },
 
   "${ModID}:BlessingHeaven": {
-    "NAME": "天之祝福",
+    "NAME": "天胡",
     "DESCRIPTION": " #y保留 。 NL 阻止你下一次失去生命值损伤的效果。 #y消耗 。",
     "UPGRADE_DESCRIPTION": " #y保留 。 NL 阻止你下 !M! 次失去生命值损伤的效果。 #y消耗 。"
   },
 
   "${ModID}:BlessingEarth": {
-    "NAME": "地之祝福",
+    "NAME": "地胡",
     "DESCRIPTION": " #y保留 。 NL 获得 [E] 。 NL 抽 !M! 张牌。 NL #y消耗 。"
   },
 
   "${ModID}:BlessingMan": {
-    "NAME": "人之祝福",
+    "NAME": "人胡",
     "DESCRIPTION": " #y保留 。 NL 给予所有敌人 1 层 #y易伤 !M! 次。 #y消耗 。"
   }
 }
