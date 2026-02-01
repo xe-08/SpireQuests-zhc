@@ -66,7 +66,8 @@ public class BasicProficiencyQuest extends AbstractQuest {
 
     @Override
     public boolean canSpawn() {
-        return CHAR_MAP.containsKey(Wiz.p().chosenClass.name()) && Wiz.deck().findCardById(cardToPlayId) != null;
+        String className = Wiz.p().chosenClass.name();
+        return CHAR_MAP.containsKey(className) && Wiz.deck().findCardById(CHAR_MAP.get(className).get(0)) != null;
     }
 
     @Override

@@ -10,8 +10,8 @@ public class AutotransfusionQuest extends AbstractQuest {
 
     public AutotransfusionQuest() {
         super(QuestType.LONG, QuestDifficulty.HARD);
-        new TriggerTracker<>(QuestTriggers.VICTORY, 5)
-                .triggerCondition((x) -> ((float)AbstractDungeon.player.currentHealth / (float)AbstractDungeon.player.maxHealth) <= 0.25)
+        new TriggerTracker<>(QuestTriggers.VICTORY, 3)
+                .triggerCondition((x) -> ((float)AbstractDungeon.player.currentHealth / (float)AbstractDungeon.player.maxHealth) <= 0.3)
                 .add(this);
         addReward(new QuestReward.RelicReward(new BloodVial()));
 

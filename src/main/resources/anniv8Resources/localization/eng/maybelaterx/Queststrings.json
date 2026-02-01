@@ -9,10 +9,10 @@
   },
   "${ModID}:AutotransfusionQuest": {
     "TITLE": "Autotransfusion",
-    "DESCRIPTION": "Finish combat with #b25% HP or less #b5 times.",
+    "DESCRIPTION": "Finish combat with #b30% HP or less #b3 times.",
     "AUTHOR": "MaybeLaterx",
     "TRACKER_TEXT": [
-      "Combats finished with 25% HP or less"
+      "Combats finished with 30% HP or less"
    ]
   },
   "${ModID}:HumbleSmithyQuest": {
